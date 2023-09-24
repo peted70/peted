@@ -7,7 +7,8 @@ comments: true
 categories: [3D, Azure, HoloLens, HoloLens, Industrial Metaverse, Metaverse, Metaverse, Mixed Reality, Mixed Reality, USD]
 ---
 <!-- wp:image {"id":8776,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="/assets/images/2022/12/path-to-the-metaverse.png" alt="" class="wp-image-8776"/><figcaption>Path to the Industrial Metaverse</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/12/path-to-the-metaverse.png" alt="" class="wp-image-8776"/><figcaption>Path to the Industrial Metaverse</figcaption></figure>
+
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -19,7 +20,7 @@ categories: [3D, Azure, HoloLens, HoloLens, Industrial Metaverse, Metaverse, Met
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8777,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://peted.azurewebsites.net/wp-content/uploads/2022/12/tech-soup-1024x569.png" alt="" class="wp-image-8777"/><figcaption>Tech Soup</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/12/tech-soup.png" alt="" class="wp-image-8777"/><figcaption>Tech Soup</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -36,7 +37,7 @@ categories: [3D, Azure, HoloLens, HoloLens, Industrial Metaverse, Metaverse, Met
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8781,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://peted.azurewebsites.net/wp-content/uploads/2022/12/trio-metaverses-1024x573.png" alt="" class="wp-image-8781"/><figcaption>Trio of Metaverses</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/12/trio-metaverses.png" alt="" class="wp-image-8781"/><figcaption>Trio of Metaverses</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -49,7 +50,7 @@ categories: [3D, Azure, HoloLens, HoloLens, Industrial Metaverse, Metaverse, Met
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8782,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://peted.azurewebsites.net/wp-content/uploads/2022/12/industrial-1024x627.png" alt="" class="wp-image-8782"/><figcaption>Industrial</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/12/industrial.png" alt="" class="wp-image-8782"/><figcaption>Industrial</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -114,7 +115,7 @@ https://www.youtube.com/watch?v=kFIM6vPLO9Y
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":8784,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://peted.azurewebsites.net/wp-content/uploads/2022/12/microsoft-stack-1024x868.png" alt="" class="wp-image-8784"/><figcaption>Microsoft Metaverse Stack</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/12/microsoft-stack.png" alt="" class="wp-image-8784"/><figcaption>Microsoft Metaverse Stack</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -130,7 +131,7 @@ https://www.youtube.com/watch?v=kFIM6vPLO9Y
 <!-- /wp:quote -->
 
 <!-- wp:image {"id":8785,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://peted.azurewebsites.net/wp-content/uploads/2022/12/adt-rgaph-1024x618.png" alt="" class="wp-image-8785"/><figcaption>ADT Graph</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/12/adt-rgaph.png" alt="" class="wp-image-8785"/><figcaption>ADT Graph</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -162,7 +163,7 @@ https://www.youtube.com/watch?v=kFIM6vPLO9Y
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8786,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://peted.azurewebsites.net/wp-content/uploads/2022/12/architecture-1024x579.png" alt="" class="wp-image-8786"/><figcaption>POC Architecture</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/12/architecture.png" alt="" class="wp-image-8786"/><figcaption>POC Architecture</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -205,7 +206,7 @@ https://www.youtube.com/watch?v=oAyqdJsV7p8
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":8787,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://peted.azurewebsites.net/wp-content/uploads/2022/12/msf.png" alt="" class="wp-image-8787"/><figcaption><a href="https://metaverse-standards.org/" target="_blank" rel="noreferrer noopener">Metaverse Standards Forum</a></figcaption></figure>
+<figure class="wp-block-image size-full"><img src="{{ site.baseurl }}/assets/images/2022/12/msf.png" alt="" class="wp-image-8787"/><figcaption><a href="https://metaverse-standards.org/" target="_blank" rel="noreferrer noopener">Metaverse Standards Forum</a></figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -217,7 +218,7 @@ https://www.youtube.com/watch?v=oAyqdJsV7p8
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":8788,"width":752,"height":366,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://peted.azurewebsites.net/wp-content/uploads/2022/12/usd.png" alt="" class="wp-image-8788" width="752" height="366"/><figcaption><a href="https://graphics.pixar.com/usd/release/index.html" target="_blank" rel="noreferrer noopener">USD</a></figcaption></figure>
+<figure class="wp-block-image size-full is-resized"><img src="{{ site.baseurl }}/assets/images/2022/12/usd.png" alt="" class="wp-image-8788" width="752" height="366"/><figcaption><a href="https://graphics.pixar.com/usd/release/index.html" target="_blank" rel="noreferrer noopener">USD</a></figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -230,7 +231,7 @@ https://www.youtube.com/watch?v=oAyqdJsV7p8
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":8789,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://peted.azurewebsites.net/wp-content/uploads/2022/12/omniverse.png" alt="" class="wp-image-8789"/><figcaption><a href="https://www.nvidia.com/en-us/omniverse/" target="_blank" rel="noreferrer noopener">Omniverse</a></figcaption></figure>
+<figure class="wp-block-image size-full"><img src="{{ site.baseurl }}/assets/images/2022/12/omniverse.png" alt="" class="wp-image-8789"/><figcaption><a href="https://www.nvidia.com/en-us/omniverse/" target="_blank" rel="noreferrer noopener">Omniverse</a></figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
