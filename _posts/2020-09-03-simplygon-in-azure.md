@@ -20,7 +20,7 @@ categories: [3D, Azure, c#, simlygon, Uncategorized]
 <!-- /wp:jetpack/markdown -->
 
 <!-- wp:image {"id":8492,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="http://peted.azurewebsites.net/wp-content/uploads/2020/09/simplygon-1024x462.png" alt="" class="wp-image-8492"/></figure>
+<figure class="wp-block-image size-large"><img src="http://peted.azurewebsites.net/wp-content/uploads/2020/09/simplygon-.png" alt="" class="wp-image-8492"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:jetpack/markdown {"source":"## Rendering on the Server\n\nOn one hand if you have large 3D models with dense geometry consisting of millions of triangles where you need to see all of the fine details and the content isn't well suited for optimisation then server-side rendering might be the right choice for you. You might need to account for the infrastructure and maintenance work required to set up a server-side rendering solution and you also will need to understand the costs associated with running cloud services for this kind of a solution. You may need to scale across millions of users or you may only need to spin up and down services at a much smaller scale. If the latter applies then [Azure Remote Rendering](https://azure.microsoft.com/en-gb/services/remote-rendering/) would be a suitable consideration. If the former, then maybe [3D Streaming Toolkit](https://github.com/3DStreamingToolkit/3DStreamingToolkit) or a custom client/server rendering solution might be more cost-effective."} -->
@@ -40,7 +40,7 @@ categories: [3D, Azure, c#, simlygon, Uncategorized]
 <!-- /wp:jetpack/markdown -->
 
 <!-- wp:image {"id":8494,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="http://peted.azurewebsites.net/wp-content/uploads/2020/09/main-1024x574.png" alt="" class="wp-image-8494"/><figcaption>Geometry Optimisation</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="http://peted.azurewebsites.net/wp-content/uploads/2020/09/main-.png" alt="" class="wp-image-8494"/><figcaption>Geometry Optimisation</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:jetpack/markdown {"source":"This post will focus on how to fit those techniques into a cloud content pipeline using Simplygon. Often the system would require an 'authoring' step which would allow the content owner to associate metadata and seed 3D model content into a processing pipeline which could run on-premises or in the cloud. So following on from the previous post where we showed how to create a content pipeline on Azure using all of the power of Blender through it's Python scripting interface we'll illustrate how to have an optimisation step within the pipeline. This might look something like this:"} -->
@@ -49,7 +49,7 @@ categories: [3D, Azure, c#, simlygon, Uncategorized]
 <!-- /wp:jetpack/markdown -->
 
 <!-- wp:image {"id":8460,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="http://peted.azurewebsites.net/wp-content/uploads/2020/08/content-pipeline-1024x168.png" alt="" class="wp-image-8460"/><figcaption>Content Pipeline</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="http://peted.azurewebsites.net/wp-content/uploads/2020/08/content-pipeline-.png" alt="" class="wp-image-8460"/><figcaption>Content Pipeline</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:jetpack/markdown {"source":"We didn't mention the optimise node in there before really but we can make use of the Simplygon SDK to write some code there to provide the model optimisations.\n\n\u003e I focused on the Simplygon desktop application [previously](http://peted.azurewebsites.net/hololensoptimising-with-simplygon/) which is great for testing and proving out scenarios but we're going to need a more automated approach. In addition the Simplygon offering has since moved to version 9 and support for the desktop app is deprecated in favour of improvements to the SDK. The remeshing processor has with more intelligent hole filling \u0026 cavity removal and generally better quality results. The SDK is now also available in C# and Python as well as C++.\n\n## Code\n\nWe're going to be using C# and we'll run the C# code from within an Azure function similar to how we set up Blender. We won't be using Linux containers this time as the Simplygon SDK has a dependency on Windows.\n\n\u003e You can view all of the code for the Azure Function [here](https://github.com/peted70/az-func-simplygon) where you can also find a **'Deploy to Azure'** button to test this in your own subscription. Note that you would need a Simplygon license key which you would be prompted for after pressing the button.\n\nThe Simplygon SDK comes with a suite of examples (see [Simplygon Samples](https://documentation.simplygon.com/SimplygonSDK_9.0.6500.0/api/examples/gettingstarted.html#prerequisites)) for each different language and we're going to follow pretty closely the example of **Remeshing With Material Casting**. I'm just going to look at code used in our sample but for full documentation you can visit [here](https://documentation.simplygon.com/)."} -->
@@ -195,11 +195,11 @@ return new FileStreamResult(stream, System.Net.Mime.MediaTypeNames.Application.Z
 <!-- /wp:jetpack/markdown -->
 
 <!-- wp:image {"id":8511,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="http://peted.azurewebsites.net/wp-content/uploads/2020/09/generate-sas-1024x474.png" alt="" class="wp-image-8511"/></figure>
+<figure class="wp-block-image size-large"><img src="http://peted.azurewebsites.net/wp-content/uploads/2020/09/generate-sas-.png" alt="" class="wp-image-8511"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"id":8512,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="http://peted.azurewebsites.net/wp-content/uploads/2020/09/postman-blender-1024x295.png" alt="" class="wp-image-8512"/></figure>
+<figure class="wp-block-image size-large"><img src="http://peted.azurewebsites.net/wp-content/uploads/2020/09/postman-blender-.png" alt="" class="wp-image-8512"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:jetpack/markdown {"source":"4. Upload that zip archive to blob storage manually (so we can get another URI). So repeat the above step but with the downloaded archive.\n\n5. Use the resulting SAS URI as input to the Simplygon Azure Function running locally on PC or deployed to Azure\n\n6. Download and check the resulting zip archive"} -->
@@ -227,7 +227,7 @@ return new FileStreamResult(stream, System.Net.Mime.MediaTypeNames.Application.Z
 <!-- /wp:jetpack/markdown -->
 
 <!-- wp:image {"id":8497,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="http://peted.azurewebsites.net/wp-content/uploads/2020/09/archive-result-1024x297.png" alt="" class="wp-image-8497"/><figcaption> Archive Result</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="http://peted.azurewebsites.net/wp-content/uploads/2020/09/archive-result-.png" alt="" class="wp-image-8497"/><figcaption> Archive Result</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:jetpack/markdown {"source":"## Further Investigation\n\n- Orchestrate the pipeline using either an Azure Logic App or durable function\n- Use Blender node to render a resulting simplified model into an mp4 so it can be easily reviewed\n- Investigate network transmission + 3D compression techniques"} -->

@@ -64,9 +64,8 @@ categories: [3D, Azure, HoloLens, HoloLens, Industrial Metaverse, Metaverse, Met
 <!-- /wp:paragraph -->
 
 <!-- wp:embed {"url":"https://www.youtube.com/watch?v=kFIM6vPLO9Y","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
-<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-https://www.youtube.com/watch?v=kFIM6vPLO9Y
-</div><figcaption>KHI Build Keynote</figcaption></figure>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kFIM6vPLO9Y?si=asH8tlmU5epEu3pZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<p>Kawasaki Heavy Industries (Satya Nadella 2022 Build Keynote)</p>
 <!-- /wp:embed -->
 
 <!-- wp:paragraph -->
@@ -171,9 +170,8 @@ https://www.youtube.com/watch?v=kFIM6vPLO9Y
 <!-- /wp:paragraph -->
 
 <!-- wp:embed {"url":"https://www.youtube.com/watch?v=oAyqdJsV7p8","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
-<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-https://www.youtube.com/watch?v=oAyqdJsV7p8
-</div><figcaption>KHI HL2 App</figcaption></figure>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oAyqdJsV7p8?si=FcrtC3jmPkKLoYuN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<p>KHI Demo</p>
 <!-- /wp:embed -->
 
 <!-- wp:heading -->

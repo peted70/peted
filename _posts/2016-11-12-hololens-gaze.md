@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HoloLens: Gaze
+title: HoloLens Gaze
 date: 2016-11-12 12:52
 author: peted70
 comments: true

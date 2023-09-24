@@ -7,7 +7,7 @@ comments: true
 categories: [azure, Azure, HoloLens, HoloLens, mixedreality, speech, unreal engine, unreal engine]
 ---
 <!-- wp:image {"id":8653,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://peted.azurewebsites.net/wp-content/uploads/2021/09/mr-voiceover-1024x419.png" alt="" class="wp-image-8653"/></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2021/09/mr-voiceover-.png" alt="" class="wp-image-8653"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading -->
@@ -19,7 +19,7 @@ categories: [azure, Azure, HoloLens, HoloLens, mixedreality, speech, unreal engi
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8661,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://peted.azurewebsites.net/wp-content/uploads/2021/09/clippy-1024x577.png" alt="" class="wp-image-8661"/></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2021/09/clippy-.png" alt="" class="wp-image-8661"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:list -->
@@ -27,7 +27,7 @@ categories: [azure, Azure, HoloLens, HoloLens, mixedreality, speech, unreal engi
 <!-- /wp:list -->
 
 <!-- wp:image {"id":8662,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://peted.azurewebsites.net/wp-content/uploads/2021/09/hummingbird-1024x571.png" alt="" class="wp-image-8662"/></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2021/09/hummingbird-.png" alt="" class="wp-image-8662"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -109,7 +109,7 @@ https://youtu.be/5hyI_dM5cGo
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8663,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://peted.azurewebsites.net/wp-content/uploads/2021/09/text-to-speech-1024x405.png" alt="" class="wp-image-8663"/><figcaption>Text to Speech Landing Page</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2021/09/text-to-speech-.png" alt="" class="wp-image-8663"/><figcaption>Text to Speech Landing Page</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -117,7 +117,7 @@ https://youtu.be/5hyI_dM5cGo
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8664,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://peted.azurewebsites.net/wp-content/uploads/2021/09/speech-studio-1024x593.png" alt="" class="wp-image-8664"/><figcaption>Speech Studio Manage Files Page</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2021/09/speech-studio-.png" alt="" class="wp-image-8664"/><figcaption>Speech Studio Manage Files Page</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -125,7 +125,7 @@ https://youtu.be/5hyI_dM5cGo
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8665,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://peted.azurewebsites.net/wp-content/uploads/2021/09/ss-voices-1024x400.png" alt="" class="wp-image-8665"/></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2021/09/ss-voices-.png" alt="" class="wp-image-8665"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -147,7 +147,7 @@ https://www.youtube.com/watch?v=vEovjyY2u5k
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8666,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://peted.azurewebsites.net/wp-content/uploads/2021/09/export-to-library-1024x701.png" alt="" class="wp-image-8666"/><figcaption>Export to Audio Library</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2021/09/export-to-library-.png" alt="" class="wp-image-8666"/><figcaption>Export to Audio Library</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -155,7 +155,7 @@ https://www.youtube.com/watch?v=vEovjyY2u5k
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8667,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://peted.azurewebsites.net/wp-content/uploads/2021/09/export-to-disk-1024x645.png" alt="" class="wp-image-8667"/><figcaption>Export to Disk</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2021/09/export-to-disk-.png" alt="" class="wp-image-8667"/><figcaption>Export to Disk</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading -->
@@ -167,7 +167,7 @@ https://www.youtube.com/watch?v=vEovjyY2u5k
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8668,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://peted.azurewebsites.net/wp-content/uploads/2021/09/ue-template-1024x382.png" alt="" class="wp-image-8668"/></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2021/09/ue-template-.png" alt="" class="wp-image-8668"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -187,7 +187,7 @@ https://www.youtube.com/watch?v=vEovjyY2u5k
 <!-- /wp:list -->
 
 <!-- wp:image {"id":8671,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://peted.azurewebsites.net/wp-content/uploads/2021/09/ue-components.png" alt="" class="wp-image-8671"/><figcaption>Unreal Blueprint Components</figcaption></figure>
+<figure class="wp-block-image size-full"><img src="{{ site.baseurl }}/assets/images/2021/09/ue-components.png" alt="" class="wp-image-8671"/><figcaption>Unreal Blueprint Components</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:list -->
@@ -195,11 +195,11 @@ https://www.youtube.com/watch?v=vEovjyY2u5k
 <!-- /wp:list -->
 
 <!-- wp:image {"id":8673,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://peted.azurewebsites.net/wp-content/uploads/2021/09/ue-create-struct-1024x611.png" alt="" class="wp-image-8673"/><figcaption>Create a struct</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2021/09/ue-create-struct-.png" alt="" class="wp-image-8673"/><figcaption>Create a struct</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"id":8672,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://peted.azurewebsites.net/wp-content/uploads/2021/09/ue-struct-1024x230.png" alt="" class="wp-image-8672"/><figcaption>Unreal struct</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2021/09/ue-struct-.png" alt="" class="wp-image-8672"/><figcaption>Unreal struct</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:list -->
@@ -207,7 +207,7 @@ https://www.youtube.com/watch?v=vEovjyY2u5k
 <!-- /wp:list -->
 
 <!-- wp:image {"id":8674,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://peted.azurewebsites.net/wp-content/uploads/2021/09/ue-create-dt-832x1024.png" alt="" class="wp-image-8674"/></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2021/09/ue-create-dt-.png" alt="" class="wp-image-8674"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -215,7 +215,7 @@ https://www.youtube.com/watch?v=vEovjyY2u5k
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8675,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://peted.azurewebsites.net/wp-content/uploads/2021/09/ue-create-dt2.png" alt="" class="wp-image-8675"/><figcaption>Choose Struct</figcaption></figure>
+<figure class="wp-block-image size-full"><img src="{{ site.baseurl }}/assets/images/2021/09/ue-create-dt2.png" alt="" class="wp-image-8675"/><figcaption>Choose Struct</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -223,7 +223,7 @@ https://www.youtube.com/watch?v=vEovjyY2u5k
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8676,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://peted.azurewebsites.net/wp-content/uploads/2021/09/ue-dt-entry-1024x198.png" alt="" class="wp-image-8676"/><figcaption>DataTable entry</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2021/09/ue-dt-entry-.png" alt="" class="wp-image-8676"/><figcaption>DataTable entry</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -231,7 +231,7 @@ https://www.youtube.com/watch?v=vEovjyY2u5k
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8678,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://peted.azurewebsites.net/wp-content/uploads/2021/09/ue-dt-1024x308.png" alt="" class="wp-image-8678"/><figcaption>DataTable</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2021/09/ue-dt-.png" alt="" class="wp-image-8678"/><figcaption>DataTable</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -239,7 +239,7 @@ https://www.youtube.com/watch?v=vEovjyY2u5k
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8679,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://peted.azurewebsites.net/wp-content/uploads/2021/09/ue-dt-variable-1024x591.png" alt="" class="wp-image-8679"/><figcaption>DataTable variable</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2021/09/ue-dt-variable-.png" alt="" class="wp-image-8679"/><figcaption>DataTable variable</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -247,7 +247,7 @@ https://www.youtube.com/watch?v=vEovjyY2u5k
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8680,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://peted.azurewebsites.net/wp-content/uploads/2021/09/ue-create-in-leve-938x1024.png" alt="" class="wp-image-8680"/><figcaption>Blueprint in Level</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2021/09/ue-create-in-leve-.png" alt="" class="wp-image-8680"/><figcaption>Blueprint in Level</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -255,7 +255,7 @@ https://www.youtube.com/watch?v=vEovjyY2u5k
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8681,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://peted.azurewebsites.net/wp-content/uploads/2021/09/ue-receive-input.png" alt="" class="wp-image-8681"/><figcaption>Blueprint Input</figcaption></figure>
+<figure class="wp-block-image size-full"><img src="{{ site.baseurl }}/assets/images/2021/09/ue-receive-input.png" alt="" class="wp-image-8681"/><figcaption>Blueprint Input</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -263,7 +263,7 @@ https://www.youtube.com/watch?v=vEovjyY2u5k
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8682,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://peted.azurewebsites.net/wp-content/uploads/2021/09/ue-bp-init-1024x386.png" alt="" class="wp-image-8682"/><figcaption> BP Initialise</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2021/09/ue-bp-init-.png" alt="" class="wp-image-8682"/><figcaption> BP Initialise</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -271,7 +271,7 @@ https://www.youtube.com/watch?v=vEovjyY2u5k
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8683,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://peted.azurewebsites.net/wp-content/uploads/2021/09/ue-bp-init2-1024x519.png" alt="" class="wp-image-8683"/><figcaption>Bind Audio State Changed</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2021/09/ue-bp-init2-.png" alt="" class="wp-image-8683"/><figcaption>Bind Audio State Changed</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -279,7 +279,7 @@ https://www.youtube.com/watch?v=vEovjyY2u5k
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8684,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://peted.azurewebsites.net/wp-content/uploads/2021/09/ue-bp-select-voice-1024x391.png" alt="" class="wp-image-8684"/><figcaption>Select a voice</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2021/09/ue-bp-select-voice-.png" alt="" class="wp-image-8684"/><figcaption>Select a voice</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -291,7 +291,7 @@ https://www.youtube.com/watch?v=vEovjyY2u5k
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8685,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://peted.azurewebsites.net/wp-content/uploads/2021/09/ue-bp-player-state-changed-1024x315.png" alt="" class="wp-image-8685"/><figcaption>Audio Player State Changed</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2021/09/ue-bp-player-state-changed-.png" alt="" class="wp-image-8685"/><figcaption>Audio Player State Changed</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -299,7 +299,7 @@ https://www.youtube.com/watch?v=vEovjyY2u5k
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8686,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://peted.azurewebsites.net/wp-content/uploads/2021/09/ue-bp-uxttext-1024x419.png" alt="" class="wp-image-8686"/><figcaption>Uxt Text Render</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2021/09/ue-bp-uxttext-.png" alt="" class="wp-image-8686"/><figcaption>Uxt Text Render</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -311,7 +311,7 @@ https://www.youtube.com/watch?v=vEovjyY2u5k
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8687,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://peted.azurewebsites.net/wp-content/uploads/2021/09/ue-bp-start-1024x394.png" alt="" class="wp-image-8687"/><figcaption>Begin Play</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2021/09/ue-bp-start-.png" alt="" class="wp-image-8687"/><figcaption>Begin Play</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -323,7 +323,7 @@ https://www.youtube.com/watch?v=vEovjyY2u5k
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8688,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://peted.azurewebsites.net/wp-content/uploads/2021/09/package.png" alt="" class="wp-image-8688"/><figcaption>packaging for HoloLens</figcaption></figure>
+<figure class="wp-block-image size-full"><img src="{{ site.baseurl }}/assets/images/2021/09/package.png" alt="" class="wp-image-8688"/><figcaption>packaging for HoloLens</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->

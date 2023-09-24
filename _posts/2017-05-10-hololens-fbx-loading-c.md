@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HoloLens: FBX Loading c++
+title: HoloLens FBX Loading c++
 date: 2017-05-10 20:54
 author: peted70
 comments: true

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HoloLens: Gesture
+title: HoloLens Gesture
 date: 2016-11-14 19:24
 author: peted70
 comments: true

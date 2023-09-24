@@ -7,7 +7,7 @@ comments: true
 categories: [HoloLens, Mixed Reality, MR, Uncategorized, unity]
 ---
 <!-- wp:image {"id":8721,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://peted.azurewebsites.net/wp-content/uploads/2022/04/content-1024x576.jpg" alt="" class="wp-image-8721"/><figcaption>Anchoring a scene</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/04/content-.jpg" alt="" class="wp-image-8721"/><figcaption>Anchoring a scene</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:verse -->
@@ -28,7 +28,7 @@ Jump straight to the <a href="https://github.com/peted70/LocalAnchors" target="_
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8719,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://peted.azurewebsites.net/wp-content/uploads/2022/04/mrtk-features.png" alt="" class="wp-image-8719"/></figure>
+<figure class="wp-block-image size-full"><img src="{{ site.baseurl }}/assets/images/2022/04/mrtk-features.png" alt="" class="wp-image-8719"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -40,7 +40,7 @@ Jump straight to the <a href="https://github.com/peted70/LocalAnchors" target="_
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8715,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://peted.azurewebsites.net/wp-content/uploads/2022/03/oxr-plugin-1024x584.png" alt="" class="wp-image-8715"/></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/03/oxr-plugin-.png" alt="" class="wp-image-8715"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -60,7 +60,7 @@ Jump straight to the <a href="https://github.com/peted70/LocalAnchors" target="_
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8716,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://peted.azurewebsites.net/wp-content/uploads/2022/03/anchor-script.png" alt="" class="wp-image-8716"/></figure>
+<figure class="wp-block-image size-full"><img src="{{ site.baseurl }}/assets/images/2022/03/anchor-script.png" alt="" class="wp-image-8716"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
