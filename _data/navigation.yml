@@ -10,9 +10,9 @@ main:
   #   url: /sitemap/
   - title: "Home"
     url: /
-  - title: "Tags"
-    url: /tags/
-  - title: "Year Archive"
-    url: /year-archive/
+  # - title: "Tags"
+  #   url: /tags/
+  # - title: "Year Archive"
+  #   url: /year-archive/
   - title: "About"
     url: /about/
