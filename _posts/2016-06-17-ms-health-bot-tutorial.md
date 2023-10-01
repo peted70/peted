@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: MS Health Bot Tutorial
 date: 2016-06-17 10:54
 author: peted70

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: wp7 Collectionviewsource filtering
 date: 2012-02-01 14:23
 author: peted70

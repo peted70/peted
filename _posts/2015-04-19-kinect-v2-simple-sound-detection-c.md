@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Kinect V2 - Simple Sound Detection C++
 date: 2015-04-19 17:52
 author: peted70

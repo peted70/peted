@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Kinect 4 Windows v2 &ndash; Custom Gestures in Unity
 date: 2014-11-21 18:09
 author: peted70

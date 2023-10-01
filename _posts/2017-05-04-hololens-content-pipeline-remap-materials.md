@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: HoloLens Content Pipeline (remap materials)
 date: 2017-05-04 22:33
 author: peted70

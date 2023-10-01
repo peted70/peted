@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: skydrive photo upload wp7
 date: 2012-03-02 11:06
 author: peted70

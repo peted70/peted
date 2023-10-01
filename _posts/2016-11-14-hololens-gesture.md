@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: HoloLens Gesture
 date: 2016-11-14 19:24
 author: peted70

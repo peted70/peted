@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: WP7 UserControls
 date: 2010-12-15 12:26
 author: peted70

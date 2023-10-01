@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: metro c# webapi client
 date: 2012-03-25 18:37
 author: peted70

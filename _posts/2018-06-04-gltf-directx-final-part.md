@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: glTF &amp; DirectX final part
 date: 2018-06-04 12:02
 author: peted70

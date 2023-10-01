@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: wp7–JSON parsing
 date: 2012-04-04 12:59
 author: peted70

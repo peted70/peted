@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: AAD Login on HoloLens 2
 date: 2020-07-17 17:50
 author: peted70

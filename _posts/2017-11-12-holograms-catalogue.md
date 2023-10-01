@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Holograms Catalogue
 date: 2017-11-12 10:39
 author: peted70

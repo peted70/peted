@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Azure Speech Studio for Mixed Reality
 date: 2021-09-27 12:13
 author: peted70

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: MS translator api text to speech WP7
 date: 2010-10-07 13:54
 author: peted70

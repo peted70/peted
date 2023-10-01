@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: A Lap Around the Kinect for Windows V2 SDK
 date: 2015-01-01 18:48
 author: peted70

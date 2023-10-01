@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Semantic Zoom (Universal Apps)
 date: 2014-08-13 17:31
 author: peted70

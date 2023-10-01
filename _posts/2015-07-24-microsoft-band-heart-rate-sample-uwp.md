@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Microsoft Band Heart Rate Sample &ndash; UWP
 date: 2015-07-24 10:43
 author: peted70

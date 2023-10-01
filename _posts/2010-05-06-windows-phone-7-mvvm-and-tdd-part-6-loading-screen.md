@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Windows Phone 7, MVVM and TDD (Part 6 – loading screen)
 date: 2010-05-06 23:11
 author: peted70

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: metro app and kinect voice control
 date: 2012-10-12 17:11
 author: peted70

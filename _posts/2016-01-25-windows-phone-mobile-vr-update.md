@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Windows Phone Mobile VR Update
 date: 2016-01-25 13:19
 author: peted70

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: metro c#–simple transform using touch
 date: 2012-04-04 17:52
 author: peted70

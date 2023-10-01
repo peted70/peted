@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Democratising 3D Content Creation
 date: 2016-09-12 10:36
 author: peted70

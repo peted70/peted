@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: metro background audio c# (release preview)
 date: 2012-08-12 17:02
 author: peted70

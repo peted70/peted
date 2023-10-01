@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: WCF Rest Service - WP7 Client
 date: 2010-09-28 13:17
 author: peted70

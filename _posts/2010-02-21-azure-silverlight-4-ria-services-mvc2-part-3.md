@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Azure + Silverlight 4 + RIA Services + MVC2 (Part 3)
 date: 2010-02-21 02:44
 author: peted70

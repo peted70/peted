@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Windows Store Apps Icon Generator
 date: 2015-02-13 10:58
 author: peted70

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Windows Phone 7, MVVM and TDD (Part 5 – creating the basic UI)
 date: 2010-05-06 09:10
 author: peted70

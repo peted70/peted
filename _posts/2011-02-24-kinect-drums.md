@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: kinect drums
 date: 2011-02-24 10:48
 author: peted70

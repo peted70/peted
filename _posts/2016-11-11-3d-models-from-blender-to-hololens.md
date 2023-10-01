@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 3D Models From Blender to HoloLens
 date: 2016-11-11 17:49
 author: peted70

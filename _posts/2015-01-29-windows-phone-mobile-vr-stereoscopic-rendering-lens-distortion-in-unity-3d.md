@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Windows Phone Mobile VR (Stereoscopic Rendering + Lens Distortion in Unity 3D)
 date: 2015-01-29 14:20
 author: peted70

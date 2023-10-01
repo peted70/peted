@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Azure websocket server with node.js and socket.io
 date: 2013-02-15 15:44
 author: peted70

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: wp7 skydrive upload
 date: 2012-01-18 15:05
 author: peted70

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Shader Stereo instancing HoloLens
 date: 2019-03-14 10:34
 author: peted70

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Windows Phone 7, MVVM and TDD (Part 7 – VisualStateManager transitions)
 date: 2010-05-09 11:30
 author: peted70

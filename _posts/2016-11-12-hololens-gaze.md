@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: HoloLens Gaze
 date: 2016-11-12 12:52
 author: peted70

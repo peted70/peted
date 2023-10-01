@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Windows Phone Mobile VR &ndash; VISR-VR SDK
 date: 2016-05-08 18:46
 author: peted70

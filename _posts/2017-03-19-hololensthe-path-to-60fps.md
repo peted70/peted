@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: HoloLens&ndash;The Path to 60fps
 date: 2017-03-19 20:04
 author: peted70

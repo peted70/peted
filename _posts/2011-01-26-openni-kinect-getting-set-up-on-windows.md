@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: OpenNI + Kinect (getting set up on Windows)
 date: 2011-01-26 17:18
 author: peted70

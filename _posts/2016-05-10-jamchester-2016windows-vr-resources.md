@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Jamchester 2016&ndash;Windows VR Resources
 date: 2016-05-10 21:04
 author: peted70

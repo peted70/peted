@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Data Binding Panorama Control WP7 MVVM
 date: 2010-09-25 12:31
 author: peted70

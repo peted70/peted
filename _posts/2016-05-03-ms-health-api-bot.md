@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: MS Health API Bot
 date: 2016-05-03 16:23
 author: peted70

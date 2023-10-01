@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Microsoft Health API - UWP Sample
 date: 2015-07-13 18:34
 author: peted70

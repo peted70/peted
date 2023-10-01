@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: IL2CPP + HoloLens
 date: 2019-01-17 17:35
 author: peted70

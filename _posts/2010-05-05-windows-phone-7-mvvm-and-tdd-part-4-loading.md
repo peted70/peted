@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Windows Phone 7, MVVM and TDD (Part 4 – Loading…)
 date: 2010-05-05 19:27
 author: peted70

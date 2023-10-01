@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Blender in Azure
 date: 2020-08-26 16:22
 author: peted70

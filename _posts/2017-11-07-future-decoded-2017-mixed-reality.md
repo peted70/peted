@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Future Decoded 2017 Mixed Reality
 date: 2017-11-07 13:30
 author: peted70

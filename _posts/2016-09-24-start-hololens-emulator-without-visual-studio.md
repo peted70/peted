@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Start HoloLens Emulator without Visual Studio
 date: 2016-09-24 21:40
 author: peted70

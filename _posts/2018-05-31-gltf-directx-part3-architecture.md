@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: glTF &amp; DirectX part3 - architecture
 date: 2018-05-31 14:12
 author: peted70

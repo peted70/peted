@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: WPF Commanding and Data Annotations Validation
 date: 2010-02-14 20:48
 author: peted70

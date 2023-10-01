@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: MS Band Server &ndash; sensor data in a browser
 date: 2016-03-13 12:58
 author: peted70

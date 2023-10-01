@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Future Decoded UK 2016 AR/VR Track Sessions
 date: 2016-10-12 17:26
 author: peted70

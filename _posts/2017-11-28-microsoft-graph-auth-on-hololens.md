@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Microsoft Graph Auth on HoloLens
 date: 2017-11-28 18:06
 author: peted70

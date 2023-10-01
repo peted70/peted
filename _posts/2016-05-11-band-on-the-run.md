@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Band on the Run
 date: 2016-05-11 11:53
 author: peted70

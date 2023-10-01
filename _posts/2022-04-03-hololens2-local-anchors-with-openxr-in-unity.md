@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: HoloLens2 local anchors with OpenXR in Unity
 date: 2022-04-03 10:32
 author: peted70

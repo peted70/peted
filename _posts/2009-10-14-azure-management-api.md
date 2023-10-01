@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Azure Management API
 date: 2009-10-14 13:25
 author: peted70

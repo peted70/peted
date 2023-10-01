@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Streamsocket example c# metro
 date: 2012-04-07 13:58
 author: peted70

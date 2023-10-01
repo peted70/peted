@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: HoloLens&ndash;optimising with Simplygon
 date: 2017-06-18 10:46
 author: peted70

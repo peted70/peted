@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: wp7 record your own accelerometer data for testing
 date: 2011-06-07 23:04
 author: peted70

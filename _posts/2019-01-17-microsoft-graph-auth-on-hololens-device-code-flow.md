@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Microsoft Graph Auth on HoloLens&ndash;Device Code Flow
 date: 2019-01-17 16:42
 author: peted70

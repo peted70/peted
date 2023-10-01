@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: RIA Services Development Tips
 date: 2010-02-27 18:41
 author: peted70

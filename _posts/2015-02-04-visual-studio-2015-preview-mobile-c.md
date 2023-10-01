@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Visual Studio 2015 Preview &ndash; Mobile C++
 date: 2015-02-04 11:20
 author: peted70

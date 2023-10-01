@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Microsoft Band Web Tile
 date: 2015-07-15 11:52
 author: peted70

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: mixed reality real-time translator
 date: 2018-02-20 16:29
 author: peted70

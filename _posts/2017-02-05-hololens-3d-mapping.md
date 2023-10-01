@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: HoloLens &amp; 3D Mapping
 date: 2017-02-05 20:06
 author: peted70

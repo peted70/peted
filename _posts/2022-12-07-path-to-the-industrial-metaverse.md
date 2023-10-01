@@ -1,10 +1,19 @@
 ---
-layout: posts
+layout: single
 title: Path to the Industrial Metaverse
 date: 2022-12-07 13:50
-author: peted70
+author_profile: true
 comments: true
 categories: [3D, Azure, HoloLens, HoloLens, Industrial Metaverse, Metaverse, Metaverse, Mixed Reality, Mixed Reality, USD]
+# header:
+#   teaserlogo:
+#   teaser: ''
+#   image: ''
+#   caption:
+gallery:
+  - image_path: ''
+    url: ''
+    title: ''
 ---
 <!-- wp:image {"id":8776,"sizeSlug":"large","linkDestination":"none"} -->
 <figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/12/path-to-the-metaverse.png" alt="" class="wp-image-8776"/><figcaption>Path to the Industrial Metaverse</figcaption></figure>

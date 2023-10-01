@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: databinding BingMaps Control Wp7 MVVM
 date: 2010-10-06 14:36
 author: peted70

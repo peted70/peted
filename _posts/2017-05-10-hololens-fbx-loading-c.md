@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: HoloLens FBX Loading c++
 date: 2017-05-10 20:54
 author: peted70

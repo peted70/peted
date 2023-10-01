@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Simple textbox validation wp7
 date: 2010-10-21 09:58
 author: peted70

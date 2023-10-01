@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: OPENFRAMEWORKS + KINECT 4 WINDOWS V2 (II)
 date: 2015-03-13 16:58
 author: peted70

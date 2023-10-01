@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: TDD Introduction
 date: 2010-03-31 00:50
 author: peted70

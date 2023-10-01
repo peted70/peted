@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Holograms Catalogue&ndash;To the Cloud
 date: 2017-11-16 10:09
 author: peted70

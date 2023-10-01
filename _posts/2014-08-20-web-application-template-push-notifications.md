@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Web Application Template Push Notifications
 date: 2014-08-20 15:54
 author: peted70

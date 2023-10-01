@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Kinect 4 Windows V2 &ndash; Unity3D 5
 date: 2015-03-13 14:36
 author: peted70

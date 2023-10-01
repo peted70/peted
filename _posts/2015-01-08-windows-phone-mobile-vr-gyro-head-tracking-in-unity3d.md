@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Windows Phone Mobile VR (Gyro Head Tracking in Unity3D)
 date: 2015-01-08 19:57
 author: peted70

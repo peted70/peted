@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Microsoft UK Tech days (day 4)
 date: 2010-04-15 20:45
 author: peted70

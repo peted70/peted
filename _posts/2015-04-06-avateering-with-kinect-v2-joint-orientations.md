@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Avateering with Kinect V2 &ndash; Joint Orientations
 date: 2015-04-06 19:26
 author: peted70

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: wp7 CollectionViewSource – sorting a listbox
 date: 2011-07-03 15:28
 author: peted70

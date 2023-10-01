@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: wp7 pathlistbox
 date: 2011-05-24 23:59
 author: peted70

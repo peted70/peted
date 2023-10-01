@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Intro to Git in Visual Studio
 date: 2015-03-06 09:42
 author: peted70

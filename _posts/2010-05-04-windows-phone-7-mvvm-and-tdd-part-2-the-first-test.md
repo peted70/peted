@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Windows Phone 7, MVVM and TDD (Part 2 – The first test)
 date: 2010-05-04 14:41
 author: peted70

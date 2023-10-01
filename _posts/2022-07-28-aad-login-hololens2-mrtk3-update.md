@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: AAD Login HoloLens2 - MRTK3 Update
 date: 2022-07-28 19:27
 author: peted70

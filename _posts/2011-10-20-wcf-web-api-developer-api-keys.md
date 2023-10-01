@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: WCF web api + developer APi keys
 date: 2011-10-20 15:27
 author: peted70

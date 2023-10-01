@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Azure Website in 2 mins
 date: 2015-01-30 11:52
 author: peted70

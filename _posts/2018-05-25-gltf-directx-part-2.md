@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: glTF + DirectX part 2
 date: 2018-05-25 23:50
 author: peted70

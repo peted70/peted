@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: WebVR + HoloLens
 date: 2018-06-15 14:57
 author: peted70

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: skydrive upload c# metro
 date: 2012-03-17 20:39
 author: peted70

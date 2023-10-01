@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: GLB reading and writing
 date: 2018-05-01 16:20
 author: peted70

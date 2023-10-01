@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Visual Studio 2015 Preview + ASP.NET 5
 date: 2015-01-19 12:37
 author: peted70

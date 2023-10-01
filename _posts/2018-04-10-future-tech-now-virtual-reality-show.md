@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Future Tech Now&ndash;Virtual Reality Show
 date: 2018-04-10 08:43
 author: peted70

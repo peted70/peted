@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: wp7 – custom control project template
 date: 2011-08-06 16:19
 author: peted70

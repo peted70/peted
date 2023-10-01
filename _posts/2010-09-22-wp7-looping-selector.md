@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: WP7 looping selector
 date: 2010-09-22 23:15
 author: peted70

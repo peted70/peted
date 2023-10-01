@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Office Add-In with Knockout.js
 date: 2015-10-12 18:41
 author: peted70

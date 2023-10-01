@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Fake Microsoft Band
 date: 2015-12-01 19:11
 author: peted70

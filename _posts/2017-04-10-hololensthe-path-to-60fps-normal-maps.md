@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: HoloLens&ndash;The Path to 60fps (Normal Maps)
 date: 2017-04-10 09:20
 author: peted70

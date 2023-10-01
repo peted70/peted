@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Holograms Catalogue&ndash;Loading Models
 date: 2017-11-21 18:31
 author: peted70

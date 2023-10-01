@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: HoloLens End-to-End in Unity
 date: 2016-11-11 17:51
 author: peted70

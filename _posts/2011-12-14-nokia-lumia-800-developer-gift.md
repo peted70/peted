@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Nokia Lumia 800 Developer Gift
 date: 2011-12-14 09:11
 author: peted70

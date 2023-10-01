@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: HoloLens 2 Unreal Project Template
 date: 2021-06-27 16:22
 author: peted70

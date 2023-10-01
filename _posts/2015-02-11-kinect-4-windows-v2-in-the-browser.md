@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Kinect 4 Windows V2 - in the browser
 date: 2015-02-11 22:03
 author: peted70

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Data Binding Pivot Control WP7 MVVM
 date: 2010-09-20 00:49
 author: peted70

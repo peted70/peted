@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: HoloToolkit Build Window
 date: 2016-09-27 17:30
 author: peted70

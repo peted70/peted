@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Simplygon in Azure
 date: 2020-09-03 12:02
 author: peted70

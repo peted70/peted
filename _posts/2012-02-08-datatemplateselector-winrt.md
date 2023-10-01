@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: datatemplateselector winrt
 date: 2012-02-08 15:34
 author: peted70

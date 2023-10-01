@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Mixed Reality Evangelism
 date: 2018-09-11 08:23
 author: peted70

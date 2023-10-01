@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Face Tracking &ndash; Kinect 4 Windows v2
 date: 2014-08-17 17:33
 author: peted70

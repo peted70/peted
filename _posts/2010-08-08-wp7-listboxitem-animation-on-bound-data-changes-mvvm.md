@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: WP7 ListBoxItem Animation on bound data changes (MVVM)
 date: 2010-08-08 12:29
 author: peted70

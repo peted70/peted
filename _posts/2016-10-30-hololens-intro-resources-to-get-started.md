@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: HoloLens Intro &ndash; Resources to Get Started
 date: 2016-10-30 18:09
 author: peted70

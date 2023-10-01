@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Openframeworks + Kinect 4 Windows V2
 date: 2014-10-14 10:25
 author: peted70

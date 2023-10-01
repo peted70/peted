@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Visual Gesture Builder &ndash; Kinect 4 Windows v2
 date: 2014-10-03 15:54
 author: peted70
