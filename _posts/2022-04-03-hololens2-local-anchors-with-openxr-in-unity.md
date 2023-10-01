@@ -7,7 +7,7 @@ comments: true
 categories: [HoloLens, Mixed Reality, MR, Uncategorized, unity]
 ---
 <!-- wp:image {"id":8721,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/04/content-.jpg" alt="" class="wp-image-8721"/><figcaption>Anchoring a scene</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/04/content-scaled.jpg" alt="" class="wp-image-8721"/><figcaption>Anchoring a scene</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:verse -->
@@ -40,7 +40,7 @@ Jump straight to the <a href="https://github.com/peted70/LocalAnchors" target="_
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8715,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/03/oxr-plugin-.png" alt="" class="wp-image-8715"/></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/03/oxr-plugin.png" alt="" class="wp-image-8715"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->

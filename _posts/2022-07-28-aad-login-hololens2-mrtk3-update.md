@@ -7,7 +7,7 @@ comments: true
 categories: [Azure, HoloLens, HoloLens, mrtk3, unity, Unity]
 ---
 <!-- wp:image {"id":8741,"width":840,"height":597,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="{{ site.baseurl }}/assets/images/2022/07/eye-.png" alt="" class="wp-image-8741" width="840" height="597"/><figcaption>Eye</figcaption></figure>
+<figure class="wp-block-image size-large is-resized"><img src="{{ site.baseurl }}/assets/images/2022/07/eye.png" alt="" class="wp-image-8741" width="840" height="597"/><figcaption>Eye</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -39,7 +39,7 @@ categories: [Azure, HoloLens, HoloLens, mrtk3, unity, Unity]
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8742,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/07/newprojvs22-.png" alt="" class="wp-image-8742"/><figcaption>Visual Studio New Project</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/07/newprojvs22.png" alt="" class="wp-image-8742"/><figcaption>Visual Studio New Project</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -47,7 +47,7 @@ categories: [Azure, HoloLens, HoloLens, mrtk3, unity, Unity]
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8743,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/07/netcore-.png" alt="" class="wp-image-8743"/><figcaption>Identity Platform</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/07/netcore.png" alt="" class="wp-image-8743"/><figcaption>Identity Platform</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:quote -->
@@ -83,7 +83,7 @@ categories: [Azure, HoloLens, HoloLens, mrtk3, unity, Unity]
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8744,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/07/publish-.png" alt="" class="wp-image-8744"/><figcaption>publish</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/07/publish.png" alt="" class="wp-image-8744"/><figcaption>publish</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -91,7 +91,7 @@ categories: [Azure, HoloLens, HoloLens, mrtk3, unity, Unity]
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8745,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/07/app-service-.png" alt="" class="wp-image-8745"/><figcaption>App Service</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/07/app-service.png" alt="" class="wp-image-8745"/><figcaption>App Service</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -150,7 +150,7 @@ public IEnumerable&lt;WeatherForecast> Get()
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8746,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/07/aad-appreg-.png" alt="" class="wp-image-8746"/><figcaption> AAD App Registration</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/07/aad-appreg.png" alt="" class="wp-image-8746"/><figcaption> AAD App Registration</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -158,7 +158,7 @@ public IEnumerable&lt;WeatherForecast> Get()
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8747,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/07/web-api-appreg-.png" alt="" class="wp-image-8747"/><figcaption>Web API App Registration</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/07/web-api-appreg.png" alt="" class="wp-image-8747"/><figcaption>Web API App Registration</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -166,7 +166,7 @@ public IEnumerable&lt;WeatherForecast> Get()
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8748,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/07/hl-appreg-.png" alt="" class="wp-image-8748"/><figcaption>HoloLens App Registration</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/07/hl-appreg.png" alt="" class="wp-image-8748"/><figcaption>HoloLens App Registration</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading -->
@@ -178,7 +178,7 @@ public IEnumerable&lt;WeatherForecast> Get()
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8749,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/07/webapi-properties-.png" alt="" class="wp-image-8749"/><figcaption>Web API App Registration Properties</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/07/webapi-properties.png" alt="" class="wp-image-8749"/><figcaption>Web API App Registration Properties</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -186,7 +186,7 @@ public IEnumerable&lt;WeatherForecast> Get()
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8750,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/07/deployed-webapi-properties-.png" alt="" class="wp-image-8750"/><figcaption>Deployed Properties</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/07/deployed-webapi-properties.png" alt="" class="wp-image-8750"/><figcaption>Deployed Properties</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:quote -->
@@ -273,7 +273,7 @@ WebAuthenticationBroker.GetCurrentApplicationCallbackUri().Host.ToUpper());
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8751,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/07/redirect-uri-.png" alt="" class="wp-image-8751"/><figcaption>Redirect URI</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/07/redirect-uri.png" alt="" class="wp-image-8751"/><figcaption>Redirect URI</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -285,7 +285,7 @@ WebAuthenticationBroker.GetCurrentApplicationCallbackUri().Host.ToUpper());
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":8752,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/07/unity-scene-.png" alt="" class="wp-image-8752"/><figcaption>Unity Scene</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/07/unity-scene.png" alt="" class="wp-image-8752"/><figcaption>Unity Scene</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -297,7 +297,7 @@ WebAuthenticationBroker.GetCurrentApplicationCallbackUri().Host.ToUpper());
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8753,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/07/unity-play-.png" alt="" class="wp-image-8753"/><figcaption>Unity Player</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/07/unity-play.png" alt="" class="wp-image-8753"/><figcaption>Unity Player</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -401,7 +401,7 @@ public class WebApiDataSource : DataSourceGOBase
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8754,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/07/mrtk3-db-.png" alt="" class="wp-image-8754"/><figcaption>MRTK3 Data Binding Components</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/07/mrtk3-db.png" alt="" class="wp-image-8754"/><figcaption>MRTK3 Data Binding Components</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -409,7 +409,7 @@ public class WebApiDataSource : DataSourceGOBase
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8755,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/07/item-template-.png" alt="" class="wp-image-8755"/><figcaption>Item Template</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/07/item-template.png" alt="" class="wp-image-8755"/><figcaption>Item Template</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->

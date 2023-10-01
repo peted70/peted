@@ -11,7 +11,7 @@ categories: [HoloLens, HoloLens, Mixed Reality, mrtk, unreal engine, unreal engi
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8609,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2021/06/template-.png" alt="" class="wp-image-8609"/><figcaption>Unreal Template Selector</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2021/06/template.png" alt="" class="wp-image-8609"/><figcaption>Unreal Template Selector</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -43,7 +43,7 @@ categories: [HoloLens, HoloLens, Mixed Reality, mrtk, unreal engine, unreal engi
 <!-- /wp:list -->
 
 <!-- wp:image {"id":8612,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2021/06/insert-project-.png" alt="" class="wp-image-8612"/><figcaption>New Project</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2021/06/insert-project.png" alt="" class="wp-image-8612"/><figcaption>New Project</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -59,7 +59,7 @@ categories: [HoloLens, HoloLens, Mixed Reality, mrtk, unreal engine, unreal engi
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8616,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2021/06/plugins2-.png" alt="" class="wp-image-8616"/><figcaption>Plugins</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2021/06/plugins2.png" alt="" class="wp-image-8616"/><figcaption>Plugins</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -75,7 +75,7 @@ categories: [HoloLens, HoloLens, Mixed Reality, mrtk, unreal engine, unreal engi
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8619,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2021/06/level-.png" alt="" class="wp-image-8619"/><figcaption>MR Level</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2021/06/level.png" alt="" class="wp-image-8619"/><figcaption>MR Level</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -107,15 +107,15 @@ categories: [HoloLens, HoloLens, Mixed Reality, mrtk, unreal engine, unreal engi
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":8623,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2021/06/create-project-.png" alt="" class="wp-image-8623"/><figcaption>Create New Project</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2021/06/create-project.png" alt="" class="wp-image-8623"/><figcaption>Create New Project</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"id":8625,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2021/06/select-template-.png" alt="" class="wp-image-8625"/><figcaption>Select Template</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2021/06/select-template.png" alt="" class="wp-image-8625"/><figcaption>Select Template</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"id":8627,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2021/06/settings-.png" alt="" class="wp-image-8627"/><figcaption>Project Settings</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2021/06/settings.png" alt="" class="wp-image-8627"/><figcaption>Project Settings</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -123,7 +123,7 @@ categories: [HoloLens, HoloLens, Mixed Reality, mrtk, unreal engine, unreal engi
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8628,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2021/06/player-.png" alt="" class="wp-image-8628"/><figcaption>Player</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2021/06/player.png" alt="" class="wp-image-8628"/><figcaption>Player</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->

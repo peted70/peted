@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: Path to the Industrial Metaverse
 date: 2022-12-07 13:50
 author: peted70
