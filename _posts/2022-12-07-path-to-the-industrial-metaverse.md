@@ -1,15 +1,16 @@
 ---
 layout: single
 title: Path to the Industrial Metaverse
+excerpt: "I recently gave a talk at the London Tech Summit 2022 on my thoughts around metaverse technology and more specifically, the Industrial Metaverse. It has been a while since I have given any talks at all, largely due to job changes at Microsoft"
 date: 2022-12-07 13:50
 author_profile: true
 comments: true
 categories: [3D, Azure, HoloLens, HoloLens, Industrial Metaverse, Metaverse, Metaverse, Mixed Reality, Mixed Reality, USD]
-# header:
-#   teaserlogo:
-#   teaser: ''
-#   image: ''
-#   caption:
+header:
+    teaserlogo: 'assets/images/2022/12/path-to-the-metaverse.png'
+    teaser: 'assets/images/2022/12/path-to-the-metaverse.png'
+    image: ''
+    caption: ''
 gallery:
   - image_path: ''
     url: ''

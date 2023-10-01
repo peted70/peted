@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Pete D's Blog
+title: 
 email: peted70@hotmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -23,6 +23,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://petexr.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: peted70
 github_username:  peted70
+
+teaser                   : assets/images/avatar.png # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     :  # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : Pete D's Blog
 
 # Build settings
 markdown: kramdown
@@ -34,6 +38,30 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
   - jekyll-include-cache 
+  - jekyll-archives
+
+category_archive:
+  type: jekyll-archives
+  path: /categories/
+tag_archive:
+  type: jekyll-archives
+  path: /tags/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-WC0MXS4DMJ"
+    anonymize_ip: false # default
 
 comments:
   provider: disqus

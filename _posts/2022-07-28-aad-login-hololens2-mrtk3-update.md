@@ -5,6 +5,12 @@ date: 2022-07-28 19:27
 author: peted70
 comments: true
 categories: [Azure, HoloLens, HoloLens, mrtk3, unity, Unity]
+header:
+    teaserlogo: 'assets/images/2022/07/eye.png'
+    teaser: 'assets/images/2022/07/eye.png'
+    image: ''
+    caption: ''
+
 ---
 <!-- wp:image {"id":8741,"width":840,"height":597,"sizeSlug":"large","linkDestination":"none"} -->
 <figure class="wp-block-image size-large is-resized"><img src="{{ site.baseurl }}/assets/images/2022/07/eye.png" alt="" class="wp-image-8741" width="840" height="597"/><figcaption>Eye</figcaption></figure>
