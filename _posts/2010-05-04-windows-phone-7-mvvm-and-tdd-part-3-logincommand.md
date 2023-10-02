@@ -2,9 +2,12 @@
 layout: single
 title: Windows Phone 7, MVVM and TDD (Part 3 – LoginCommand)
 date: 2010-05-04 23:54
-author: peted70
+author_profile: true
 comments: true
 categories: [MVVM, TDD, Windows Phone 7]
+header:
+    teaserlogo: 'assets/images/'
+    teaser: 'assets/images/'
 ---
 <div id="msgcns!4F1B7368284539E5!241" class="bvMsg"><p>by Peter Daukintis</p> <p>Now, to support the login functionality I will add a password property in exactly the same way (test first) as the username text property from part 2 (<a href="http://babaandthepigman.spaces.live.com/blog/cns!4F1B7368284539E5!237.entry">http://babaandthepigman.spaces.live.com/blog/cns!4F1B7368284539E5!237.entry</a>). Also I will supplement the tests with tests to check the values are set, similar to the following:</p><pre>        <span style="color:#d2d200;">[</span><span style="color:#f0dfaf;">TestMethod</span><span style="color:#d2d200;">]
         </span><span style="color:#eaeaac;">public void </span><span style="color:#f8ffc6;">UsernameText_SetValue_ResultsInNewValue</span><span style="color:#d2d200;">()

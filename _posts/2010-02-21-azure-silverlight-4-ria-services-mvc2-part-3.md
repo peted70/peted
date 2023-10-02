@@ -2,9 +2,12 @@
 layout: single
 title: Azure + Silverlight 4 + RIA Services + MVC2 (Part 3)
 date: 2010-02-21 02:44
-author: peted70
+author_profile: true
 comments: true
 categories: [ASP.NET MVC, Azure, RIA Services, Silverlight]
+header:
+    teaserlogo: 'assets/images/'
+    teaser: 'assets/images/'
 ---
 <div id="msgcns!4F1B7368284539E5!182" class="bvMsg"><p>by Peter Daukintis</p> <p>Next up is getting the authentication service to use azure table storage.</p> <p>To do this you need to get the additional azure code samples from here <a title="http://code.msdn.microsoft.com/windowsazuresamples" href="http://code.msdn.microsoft.com/windowsazuresamples">http://code.msdn.microsoft.com/windowsazuresamples</a> and include the asp providers project into the solution (this will need to be up converted as the project is for vs2008). Then include a reference to this in the host website project.</p> <p>For my scenario, where I am not running my app as a cloud service, I need to add settings to my web.config file to provide settings for the various providers. It was quite challenging to work out what exactly was required here but I got things working with the following in my web.config:</p><pre>    <span style="color:#efef8f;">&lt;membership </span><span style="color:#dfdfbf;">defaultProvider</span><span style="color:#efef8f;">=</span><span style="color:#cc9393;">&quot;TableStorageMembershipProvider&quot; </span><span style="color:#dfdfbf;">userIsOnlineTimeWindow </span><span style="color:#efef8f;">= </span><span style="color:#cc9393;">&quot;20&quot;</span><span style="color:#efef8f;">&gt;
       &lt;providers&gt;

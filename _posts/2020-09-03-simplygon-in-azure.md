@@ -1,10 +1,14 @@
 ---
 layout: single
 title: Simplygon in Azure
+excerpt: "Before I begin I want to credit team members from Microsoft CSE (commercial Software Engineering) as the effort was shared..."
 date: 2020-09-03 12:02
-author: peted70
+author_profile: true
 comments: true
 categories: [3D, Azure, c#, simlygon, Uncategorized]
+header:
+    teaserlogo: 'assets/images/2020/09/main-simplygon.png'
+    teaser: 'assets/images/2020/09/main-simplygon.png'
 ---
 <!-- wp:image {"id":8491,"sizeSlug":"full"} -->
 <figure class="wp-block-image size-full"><img src="http://peted.azurewebsites.net/wp-content/uploads/2020/09/main-simplygon.png" alt="" class="wp-image-8491"/></figure>

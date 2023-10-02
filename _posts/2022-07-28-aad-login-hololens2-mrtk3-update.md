@@ -1,15 +1,14 @@
 ---
 layout: single
 title: AAD Login HoloLens2 - MRTK3 Update
+excerpt: "What's the first thing that anyone creating any enterprise app will need to work out?"
 date: 2022-07-28 19:27
-author: peted70
+author_profile: true
 comments: true
 categories: [Azure, HoloLens, HoloLens, mrtk3, unity, Unity]
 header:
     teaserlogo: 'assets/images/2022/07/eye.png'
     teaser: 'assets/images/2022/07/eye.png'
-    image: ''
-    caption: ''
 
 ---
 <!-- wp:image {"id":8741,"width":840,"height":597,"sizeSlug":"large","linkDestination":"none"} -->

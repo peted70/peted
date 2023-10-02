@@ -2,9 +2,12 @@
 layout: single
 title: wp7 skydrive upload
 date: 2012-01-18 15:05
-author: peted70
+author_profile: true
 comments: true
 categories: [skydrive, Windows Phone 7, wp7dev]
+header:
+    teaserlogo: 'assets/images/'
+    teaser: 'assets/images/'
 ---
 <p>   <div style="display:inline;float:none;margin:0;padding:0;" id="scid:0767317B-992E-4b12-91E0-4F059A8CECA8:25cafb44-75f6-4a59-877b-4f5883b7b142" class="wlWriterEditableSmartContent">Technorati Tags: <a href="http://technorati.com/tags/wp7dev" rel="tag">wp7dev</a></div> Download the sdk, which at the time of writing is here <a title="http://www.microsoft.com/download/en/details.aspx?displaylang=en&amp;id=28195" href="http://www.microsoft.com/download/en/details.aspx?displaylang=en&amp;id=28195">http://www.microsoft.com/download/en/details.aspx?displaylang=en&amp;id=28195</a></p>  <p>Next, head over to <a title="https://manage.dev.live.com/Applications/Index" href="https://manage.dev.live.com/Applications/Index">https://manage.dev.live.com/Applications/Index</a> and add an application. This will provide you with an application Id and a client secret token. You also need to configure a valid redirect url as required by the OAuth handshake.</p>  <p>&#160;</p>  <p><a href="http://peted.azurewebsites.net/wp-content/uploads/2012/01/liveappreg.png"><img style="background-image:none;border-bottom:0;border-left:0;padding-left:0;padding-right:0;display:block;float:none;margin-left:auto;border-top:0;margin-right:auto;border-right:0;padding-top:0;" title="liveappreg" border="0" alt="liveappreg" src="http://peted.azurewebsites.net/wp-content/uploads/2012/01/liveappreg_thumb.png" width="552" height="346" /></a></p>  <p>&#160;</p>  <p>Add a reference to Microsoft.Live and Microsoft.Live.Controls. (included with the SDK)</p>  <p>Add a SignInButton to your page.</p>  <p>&#160;</p> <span style="color:gray;">   <pre class="code"><span style="color:gray;">&lt;</span><span style="color:#afc81c;">Controls</span><span style="color:gray;">:</span><span style="color:#afc81c;">SignInButton </span><span style="color:#498091;">x</span><span style="color:gray;">:</span><span style="color:#498091;">Name</span><span style="color:gray;">=</span><span style="background:#374626;color:#99b478;">&quot;signInButton&quot;</span><span style="color:#498091;"> Height</span><span style="color:gray;">=</span><span style="background:#374626;color:#99b478;">&quot;120&quot;
 </span><span style="color:#d6ded4;">                                   </span><span style="color:#498091;">ClientId</span><span style="color:gray;">=</span><span style="background:#374626;color:#99b478;">&quot;XXXXXXXXXXXXXXXX&quot;

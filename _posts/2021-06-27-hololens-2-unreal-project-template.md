@@ -1,10 +1,14 @@
 ---
 layout: single
 title: HoloLens 2 Unreal Project Template
+excerpt: "Each time I wanted to create a HoloLens 2 Unreal Engine project I found myself recreating a blank level, setting up a GameMode and configuring the project. Like any programmer doing anything twice that can be automated is unpalatable, so..."
 date: 2021-06-27 16:22
-author: peted70
+author_profile: true
 comments: true
 categories: [HoloLens, HoloLens, Mixed Reality, mrtk, unreal engine, unreal engine]
+header:
+    teaserlogo: 'assets/images/2021/06/template.png'
+    teaser: 'assets/images/2021/06/template.png'
 ---
 <!-- wp:paragraph -->
 <p>Each time I wanted to create a HoloLens 2 Unreal Engine project I found myself recreating a blank level, setting up a GameMode and configuring the project. Like any programmer doing anything twice that can be automated is unpalatable, so...</p>

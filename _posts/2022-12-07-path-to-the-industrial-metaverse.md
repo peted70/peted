@@ -9,12 +9,12 @@ categories: [3D, Azure, HoloLens, HoloLens, Industrial Metaverse, Metaverse, Met
 header:
     teaserlogo: 'assets/images/2022/12/path-to-the-metaverse.png'
     teaser: 'assets/images/2022/12/path-to-the-metaverse.png'
-    image: ''
-    caption: ''
-gallery:
-  - image_path: ''
-    url: ''
-    title: ''
+#     image: ''
+#     caption: ''
+# gallery:
+#   - image_path: ''
+#     url: ''
+#     title: ''
 ---
 <!-- wp:image {"id":8776,"sizeSlug":"large","linkDestination":"none"} -->
 <figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/12/path-to-the-metaverse.png" alt="" class="wp-image-8776"/><figcaption>Path to the Industrial Metaverse</figcaption></figure>

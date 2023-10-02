@@ -2,9 +2,12 @@
 layout: single
 title: Mixed Reality Evangelism
 date: 2018-09-11 08:23
-author: peted70
+author_profile: true
 comments: true
 categories: [evangelism, HoloLens, HoloLens, Windows Mixed Reality]
+header:
+    teaserlogo: 'assets/images/2019/01/managed-debugger.png'
+    teaser: 'assets/images/2019/01/managed-debugger.png'
 ---
 <iframe src="https://www.youtube.com/embed/OhuC8Udhnv8" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 

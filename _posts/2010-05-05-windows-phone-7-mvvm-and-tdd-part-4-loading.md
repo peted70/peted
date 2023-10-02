@@ -2,9 +2,12 @@
 layout: single
 title: Windows Phone 7, MVVM and TDD (Part 4 – Loading…)
 date: 2010-05-05 19:27
-author: peted70
+author_profile: true
 comments: true
 categories: [MVVM, TDD, Windows Phone 7]
+header:
+    teaserlogo: 'assets/images/'
+    teaser: 'assets/images/'
 ---
 <div id="msgcns!4F1B7368284539E5!244" class="bvMsg"><p>By Peter Daukintis</p> <p>I decided to explore the Service Locator pattern to implement handling of the busy indicator. This involves considering the busy indicator as a service which can be called upon by the view model. Again it is implemented behind an interface to support unit testing. The interface looks like this:</p><pre>    <span style="color:#eaeaac;">public interface </span><span style="color:#2b91af;">IBusyIndicator
     </span><span style="color:#d2d200;">&#123;

@@ -2,9 +2,12 @@
 layout: single
 title: Azure + Silverlight 4 + RIA Services + MVC2 (Part 5)
 date: 2010-02-24 18:55
-author: peted70
+author_profile: true
 comments: true
 categories: [ASP.NET MVC, Azure, RIA Services, Silverlight]
+header:
+    teaserlogo: 'assets/images/'
+    teaser: 'assets/images/'
 ---
 <div id="msgcns!4F1B7368284539E5!193" class="bvMsg"><p>by Peter Daukintis</p> <p>To illustrate how the final architecture hangs together I will take the AudioModule PRISM module from the previous post and link it up with a RIA services class library running on the server. So, the first step is to add a RIA Services class library to the solution:</p> <p><a href="http://peted.azurewebsites.net/wp-content/uploads/2010/09/riaservicesclasslibrary5b35d.png" rel="WLPP"><img style="display:block;float:none;margin-left:auto;margin-right:auto;border-width:0;" title="RIAServicesClassLibrary" border="0" alt="RIAServicesClassLibrary" src="http://peted.azurewebsites.net/wp-content/uploads/2010/09/riaservicesclasslibrary5b35d.png?w=300" width="506" height="345" /></a> </p> <p align="left">This step will create two new sub-projects – one for the client – and one for the server. I won’t be using the client library so will delete it and use the AudioModule in its place. So I have removed the project without the .Web suffix. Also, I will delete the default Class.cs that comes with the server-side library project. Then the next step is to add a Domain Service Class to the project using the right-click Add New Item menu. I called this AudioDomainContext to match up with the client-side PRISM module.</p><pre>    <span style="color:#d2d200;">[</span><span style="color:#f0dfaf;">EnableClientAccess</span><span style="color:#d2d200;">()]
     </span><span style="color:#eaeaac;">public class </span><span style="color:#f0dfaf;">AudioDomainService </span><span style="color:#d2d200;">: </span><span style="color:#f0dfaf;">DomainService

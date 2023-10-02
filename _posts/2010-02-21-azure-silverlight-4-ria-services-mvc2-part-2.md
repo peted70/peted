@@ -2,9 +2,12 @@
 layout: single
 title: Azure + Silverlight 4 + RIA Services + MVC2 (Part 2)
 date: 2010-02-21 02:11
-author: peted70
+author_profile: true
 comments: true
 categories: [ASP.NET MVC, Azure, RIA Services, Silverlight]
+header:
+    teaserlogo: 'assets/images/'
+    teaser: 'assets/images/'
 ---
 <div id="msgcns!4F1B7368284539E5!181" class="bvMsg"><p>by Peter Daukintis </p> <p>Ok, with Azure out of the equation until .NET 4 is supported I will turn my attention first to work out how to achieve data storage in the cloud whilst considering the overall architecture.</p> <p>Firstly, I added an empty Domain Service Class by selecting the web hosting project and selecting Add New Item…</p> <p><a href="http://peted.azurewebsites.net/wp-content/uploads/2010/09/adddomainserviceclass5b35d.png" rel="WLPP"><img style="display:block;float:none;margin-left:auto;margin-right:auto;border-width:0;" title="AddDomainServiceClass" border="0" alt="AddDomainServiceClass" src="http://peted.azurewebsites.net/wp-content/uploads/2010/09/adddomainserviceclass5b35d.png?w=300" width="460" height="319" /></a> </p> <p>This results in the following dialog:</p> <p><a href="http://peted.azurewebsites.net/wp-content/uploads/2010/09/emptydomainserviceclassdlg5b35d.png" rel="WLPP"><img style="display:block;float:none;margin-left:auto;margin-right:auto;border-width:0;" title="EmptyDomainServiceClassDlg" border="0" alt="EmptyDomainServiceClassDlg" src="http://peted.azurewebsites.net/wp-content/uploads/2010/09/emptydomainserviceclassdlg5b35d.png?w=245" width="328" height="399" /></a> </p> <p>From which I elected to choose &lt;empty domain service class&gt; since I wanted my storage to be hosted on Azure Tables which is not supported out of the box.</p> <p>This generates an empty domain service class, which I fleshed out a little with the following code:</p><pre>    <span style="color:#d2d200;">[</span><span style="color:#f0dfaf;">EnableClientAccess</span><span style="color:#d2d200;">()]
     </span><span style="color:#eaeaac;">public class </span><span style="color:#f0dfaf;">TestDomainService </span><span style="color:#d2d200;">: </span><span style="color:#f0dfaf;">DomainService

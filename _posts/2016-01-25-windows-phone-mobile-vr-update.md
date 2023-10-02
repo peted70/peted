@@ -2,9 +2,12 @@
 layout: single
 title: Windows Phone Mobile VR Update
 date: 2016-01-25 13:19
-author: peted70
+author_profile: true
 comments: true
 categories: [Uncategorized, VR, Windows Phone]
+header:
+    teaserlogo: 'assets/images/'
+    teaser: 'assets/images/'
 ---
 Its over a year now since I published these two blog posts:
 <blockquote><a title="http://peted.azurewebsites.net/windows-phone-mobile-vr-gyro-head-tracking-in-unity3d/" href="http://peted.azurewebsites.net/windows-phone-mobile-vr-gyro-head-tracking-in-unity3d/" target="_blank">Windows Phone Mobile VR (Gyro Head Tracking in Unity3D)</a>

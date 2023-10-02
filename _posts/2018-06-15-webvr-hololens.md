@@ -2,9 +2,12 @@
 layout: single
 title: WebVR + HoloLens
 date: 2018-06-15 14:57
-author: peted70
+author_profile: true
 comments: true
 categories: [3D, 3D, a-frame, a-frame, gltf, glTF, HoloLens, HoloLens, WebVR, webvr]
+header:
+    teaserlogo: 'assets/images/'
+    teaser: 'assets/images/'
 ---
 Microsoft Edge has support for WebVR as you can see here <a href="https://caniuse.com/#search=webvr">https://caniuse.com/#search=webvr</a>
 

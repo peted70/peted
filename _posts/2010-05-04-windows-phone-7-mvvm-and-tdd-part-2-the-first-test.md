@@ -2,9 +2,12 @@
 layout: single
 title: Windows Phone 7, MVVM and TDD (Part 2 – The first test)
 date: 2010-05-04 14:41
-author: peted70
+author_profile: true
 comments: true
 categories: [MVVM, TDD, Windows Phone 7]
+header:
+    teaserlogo: 'assets/images/'
+    teaser: 'assets/images/'
 ---
 <div id="msgcns!4F1B7368284539E5!237" class="bvMsg"><p>by Peter Daukintis</p> <p>First, I will create a new project in Visual Studio using the MVVM Light project templates (MVVM Light is not a requirement really it just makes the implementation of MVVM less repetitive – any compatible MVVM framework would do, or you could just roll your own).</p> <p><a href="http://peted.azurewebsites.net/wp-content/uploads/2010/09/newmvvmlightproject3.png" rel="WLPP"><img style="display:block;float:none;margin-left:auto;margin-right:auto;border-width:0;" title="NewMVVMLightProject" border="0" alt="NewMVVMLightProject" src="http://peted.azurewebsites.net/wp-content/uploads/2010/09/newmvvmlightproject3.png?w=300" width="555" height="314" /></a> </p> <p align="left">I got a compatibility warning dialog when I executed this step as the version of the MVVM Light has not been updated to support the Windows Phone application manifest. This is easily fixed by adding the following to the WMAppManifest.xml file in the project.</p><pre>    <span style="color:#efef8f;">&lt;Capabilities&gt;
       &lt;Capability </span><span style="color:#dfdfbf;">Name</span><span style="color:#efef8f;">=</span><span style="color:#cc9393;">&quot;ID_CAP_NETWORKING&quot; </span><span style="color:#efef8f;">/&gt;

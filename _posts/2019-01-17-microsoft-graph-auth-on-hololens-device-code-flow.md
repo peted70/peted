@@ -2,9 +2,12 @@
 layout: single
 title: Microsoft Graph Auth on HoloLens&ndash;Device Code Flow
 date: 2019-01-17 16:42
-author: peted70
+author_profile: true
 comments: true
 categories: [HoloLens, HoloLens, mixedreality, msgraph, oauth2, oauth2]
+header:
+    teaserlogo: 'assets/images/2019/01/device-code_thumb.png'
+    teaser: 'assets/images/2019/01/device-code_thumb.png'
 ---
 <a href="http://peted.azurewebsites.net/wp-content/uploads/2019/01/device-code.png"><img style="display: inline; background-image: none;" title="device-code" src="http://peted.azurewebsites.net/wp-content/uploads/2019/01/device-code_thumb.png" alt="device-code" width="670" height="526" border="0" /></a>
 

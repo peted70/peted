@@ -2,9 +2,12 @@
 layout: single
 title: databinding BingMaps Control Wp7 MVVM
 date: 2010-10-06 14:36
-author: peted70
+author_profile: true
 comments: true
 categories: [MVVM, Windows Phone 7]
+header:
+    teaserlogo: 'assets/images/'
+    teaser: 'assets/images/'
 ---
 <p>Ok, so a similar treatment for the Bing Maps control as for previous posts on the <a href="http://babaandthepigman.wordpress.com/2010/09/20/data-binding-pivot-control-wp7-mvvm/" target="_blank">Pivot</a> and <a href="http://babaandthepigman.wordpress.com/2010/09/25/data-binding-panorama-control-wp7-mvvm/" target="_blank">Panorama</a> controls. So starting out with a standard Windows Phone Application project…</p>  <p>Straight into the xaml:</p>  <pre class="code">            <span style="color:#d2d200;">&lt;Maps:Map x:Name=</span><span style="color:white;">&quot;map&quot; </span><span style="color:#d2d200;">Grid.Row=</span><span style="color:white;">&quot;1&quot;</span><span style="color:#d2d200;">&gt;
                 &lt;Maps:MapItemsControl ItemsSource=&quot;{</span><span style="color:cyan;">Binding </span><span style="color:white;">PushPins</span><span style="color:#d2d200;">}</span><span style="color:white;">&quot;</span><span style="color:#d2d200;">&gt;

@@ -2,9 +2,12 @@
 layout: single
 title: TDD Introduction
 date: 2010-03-31 00:50
-author: peted70
+author_profile: true
 comments: true
 categories: [TDD]
+header:
+    teaserlogo: 'assets/images/'
+    teaser: 'assets/images/'
 ---
 <div id="msgcns!4F1B7368284539E5!202" class="bvMsg"><h5>by Peter Daukintis</h5> <h3>Test Driven Development</h3> <p>This is a basic introduction to test-driven development describing related technologies in a simple, straightforward way. The learning curve can sometimes appear steep due to the range of associated technologies and architectural concepts that need to be understood. This post is a quick overview with some simple examples. </p> <h4>Basic Principles</h4> <p>TDD supports agile processes and coping with changing business requirements. It does this by enabling and promoting sound, flexible architectures which support unit testing. The test frameworks this allows, in turn, enables refactoring by providing confidence that existing functionality is not being broken. It supports a ‘clear separation of concerns’ via inversion of control patterns (<a title="http://www.martinfowler.com/articles/injection.html" href="http://www.martinfowler.com/articles/injection.html">http://www.martinfowler.com/articles/injection.html</a>).  This enables dependencies to be easily replaced, promotes flexible architectures and enables runtime composition of logical components. </p> <h4>Dependencies</h4><pre><span style="background:#2e2e2e;color:#d2d200;">        </span><span style="background:#2e2e2e;color:#eaeaac;">public </span><span style="background:#2e2e2e;color:#2b91af;">IEnumerable</span><span style="background:#2e2e2e;color:#d2d200;">&lt;</span><span style="background:#2e2e2e;color:#f0dfaf;">Stuff</span><span style="background:#2e2e2e;color:#d2d200;">&gt; </span><span style="background:#2e2e2e;color:#f8ffc6;">GetFilteredStuff</span><span style="background:#2e2e2e;color:#d2d200;">(</span><span style="background:#2e2e2e;color:#eaeaac;">string </span><span style="background:#2e2e2e;color:#f8ffc6;">filter</span><span style="background:#2e2e2e;color:#d2d200;">)
         &#123;

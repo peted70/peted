@@ -2,9 +2,12 @@
 layout: single
 title: AAD Login on HoloLens 2
 date: 2020-07-17 17:50
-author: peted70
+author_profile: true
 comments: true
 categories: [aad, Azure, HoloLens, HoloLens, login, mixedreality, oauth2, oauth2, Uncategorized]
+header:
+    teaserlogo: 'assets/images/2020/07/eye.png'
+    teaser: 'assets/images/2020/07/eye.png'
 ---
 <!-- wp:image {"id":8416,"sizeSlug":"large"} -->
 <figure class="wp-block-image size-large"><img src="http://peted.azurewebsites.net/wp-content/uploads/2020/07/eye.png" alt="" class="wp-image-8416"/></figure>

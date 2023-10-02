@@ -1,10 +1,20 @@
 ---
 layout: single
 title: HoloLens2 local anchors with OpenXR in Unity
+excerpt: "I recently required the functionality of creating a single, persistent local spatial anchor on HoloLens2. The purpose is to provide stability and a persistent"
 date: 2022-04-03 10:32
-author: peted70
+author_profile: true
 comments: true
 categories: [HoloLens, Mixed Reality, MR, Uncategorized, unity]
+header:
+    teaserlogo: 'assets/images/2022/04/content-scaled.jpg'
+    teaser: 'assets/images/2022/04/content-scaled.jpg'
+#     image: ''
+#     caption: ''
+# gallery:
+#   - image_path: ''
+#     url: ''
+#     title: ''
 ---
 <!-- wp:image {"id":8721,"sizeSlug":"large","linkDestination":"none"} -->
 <figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2022/04/content-scaled.jpg" alt="" class="wp-image-8721"/><figcaption>Anchoring a scene</figcaption></figure>

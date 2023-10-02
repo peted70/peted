@@ -1,10 +1,14 @@
 ---
 layout: single
 title: Blender in Azure
+excerpt: "Blender has been receiving some well-deserved attention recently. In particular some big companies (including Microsoft) who understand the importance of this 3D content creation tool as we move towards a spatial computing-oriented landscape..."
 date: 2020-08-26 16:22
-author: peted70
+author_profile: true
 comments: true
 categories: [3D, 3D, 3dmodels, Azure, azure, azure function, blender, Blender, c#]
+header:
+    teaserlogo: 'assets/images/2020/08/blender-logo.png'
+    teaser: 'assets/images/2020/08/blender-logo.png'
 ---
 <!-- wp:image {"id":8485,"sizeSlug":"large"} -->
 <figure class="wp-block-image size-large"><img src="http://peted.azurewebsites.net/wp-content/uploads/2020/08/blender-logo.png" alt="" class="wp-image-8485"/></figure>

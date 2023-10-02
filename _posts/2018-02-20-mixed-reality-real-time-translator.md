@@ -2,9 +2,12 @@
 layout: single
 title: mixed reality real-time translator
 date: 2018-02-20 16:29
-author: peted70
+author_profile: true
 comments: true
 categories: [AI, AI, cognitive, Cognitive, HoloLens, mixedreality, MR, translator, Unity, VR]
+header:
+    teaserlogo: 'assets/images/'
+    teaser: 'assets/images/'
 ---
 <a href="http://peted.azurewebsites.net/wp-content/uploads/2018/02/headline.png"><img style="display: inline; background-image: none;" title="headline" src="http://peted.azurewebsites.net/wp-content/uploads/2018/02/headline_thumb.png" alt="headline" width="670" height="259" border="0" /></a>
 <blockquote>Did you know that there is an API that you can call which will accept as input an audio stream, say from a microphone, that will translate any spoken sentences into another language and return not only a final audio output file of the result but also partial textual information as the context of the meaning of the sentence being uttered changes? Just let that sink in for a second; whilst we speak our words can be understood by others who wouldn't usually understand us and all happening in real-time as we utter those sentences.</blockquote>

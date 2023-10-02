@@ -2,9 +2,12 @@
 layout: single
 title: glTF &amp; DirectX final part
 date: 2018-06-04 12:02
-author: peted70
+author_profile: true
 comments: true
 categories: [3D, 3D, 3dmodels, c#, c++, code, DirectX, glb, gltf, glTF, UWP, uwp, viewer]
+header:
+    teaserlogo: 'assets/images/'
+    teaser: 'assets/images/'
 ---
 <blockquote>
 <h4><span style="color: #ffffff;"><a href="http://peted.azurewebsites.net/wp-content/uploads/2018/06/barramundi.png"><img style="display: inline; background-image: none;" title="barramundi" src="http://peted.azurewebsites.net/wp-content/uploads/2018/06/barramundi_thumb.png" alt="barramundi" width="625" height="402" border="0" /></a></span></h4>

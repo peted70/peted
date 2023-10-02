@@ -2,9 +2,12 @@
 layout: single
 title: Windows Phone 7, MVVM and TDD (Part 6 – loading screen)
 date: 2010-05-06 23:11
-author: peted70
+author_profile: true
 comments: true
 categories: [MVVM, TDD, Windows Phone 7]
+header:
+    teaserlogo: 'assets/images/'
+    teaser: 'assets/images/'
 ---
 <div id="msgcns!4F1B7368284539E5!258" class="bvMsg"><p>By Peter Daukintis</p> <p>First we need to create the loading screen user control which is heavily based upon the one used here <a href="http://www.orktane.com/Blog/post/2010/01/23/iPhone-Sudoku-in-Silverlight-using-MVVM.aspx">http://www.orktane.com/Blog/post/2010/01/23/iPhone-Sudoku-in-Silverlight-using-MVVM.aspx</a>.</p> <p><a href="https://omlweq.bay.livefilestore.com/y1mqEOMzXZFPubidDDRnoyVNEX6PbRK34fA8tklNvGQLxFlw3ZXATtMnGuF2E8oY3YoLZCSts3F2PH-7KlIMRZRWIP1IkOpAyh-QsaSF55oeJnDv-e9Y3JRHVTgHNhO8IdLrqo6mhsaeIwuwHXcEz5opA/WP7LoginLoadingControl3.png" rel="WLPP"><img style="display:block;float:none;margin-left:auto;margin-right:auto;border-width:0;" title="WP7LoginLoadingControl" border="0" alt="WP7LoginLoadingControl" src="http://peted.azurewebsites.net/wp-content/uploads/2010/09/wp7loginloadingcontrol_thumb1.png?w=300" width="669" height="420" /></a></p> <p>It consists of a grid containing eight rectangles which have associated animations that cycle through different greyscales/transparencies. The code-behind shows that the user control implements the IBusyIndicator from  <a href="http://babaandthepigman.spaces.live.com/blog/cns!4F1B7368284539E5!244.entry">http://babaandthepigman.spaces.live.com/blog/cns!4F1B7368284539E5!244.entry</a>.</p><pre>    <span style="color:#eaeaac;">public partial class </span><span style="color:#f0dfaf;">BusyIndicator </span><span style="color:#d2d200;">: </span><span style="color:#f0dfaf;">UserControl</span><span style="color:#d2d200;">, </span><span style="color:#2b91af;">IBusyIndicator
     </span><span style="color:#d2d200;">&#123;

@@ -2,9 +2,12 @@
 layout: single
 title: HoloLens&ndash;The Path to 60fps (Normal Maps)
 date: 2017-04-10 09:20
-author: peted70
+author_profile: true
 comments: true
 categories: [Blender, fps, HoloLens, HoloLens, low poly, normal map, normals, optimization, texture]
+header:
+    teaserlogo: 'assets/images/'
+    teaser: 'assets/images/'
 ---
 Since composing the last post: <a title="http://peted.azurewebsites.net/hololensthe-path-to-60fps/" href="http://peted.azurewebsites.net/hololensthe-path-to-60fps/" target="_blank" rel="noopener">HoloLens–The Path to 60fps</a> I have carried out some more work on HoloLens apps with an important requirement for as high quality rendering as possible but of course the goal is always to maintain 60 frames per second. This time around we were looking to render glass containers with associated labelling which needed to be clear and legible and the glass should look as realistic as possible in the available time.
 <blockquote>I’m going to use <a href="https://www.blender.org/" target="_blank" rel="noopener">Blender</a> for demonstration which, if you haven’t come across it before is a free, open source 3D creation software package</blockquote>

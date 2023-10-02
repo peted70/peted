@@ -2,9 +2,12 @@
 layout: single
 title: WPF Commanding and Data Annotations Validation
 date: 2010-02-14 20:48
-author: peted70
+author_profile: true
 comments: true
 categories: [MVVM, WPF]
+header:
+    teaserlogo: 'assets/images/'
+    teaser: 'assets/images/'
 ---
 <div id="msgcns!4F1B7368284539E5!167" class="bvMsg"><p>by Peter Daukintis</p> <p>I recently ran into the need to create a simple WPF app with a data form front end and which should provide some simple validation feedback to the user. I thought this would be pretty straightforward using the WPF commanding support and Data Annotations to provide some simple validation metadata. I wanted to use an M-V-VM approach so that I could unit test my View Model code. This is a screenshot of the prototype app:</p> <p> </p> <blockquote> <p align="center"><a href="http://peted.azurewebsites.net/wp-content/uploads/2010/09/commandingscreen5b85d.png" rel="WLPP"><img style="display:inline;border-width:0;" title="CommandingScreen" border="0" alt="CommandingScreen" src="http://peted.azurewebsites.net/wp-content/uploads/2010/09/commandingscreen5b85d.png?w=300" width="551" height="348" /></a> </p> <p align="left"> </p></blockquote> <p>The save button should remain disabled until the fields have all been entered correctly and also some feedback should be available to the user about which field is preventing the validation as below.</p> <p> </p> <p align="center"><a href="http://peted.azurewebsites.net/wp-content/uploads/2010/09/commandingvalidation5b35d.png" rel="WLPP"><img style="display:inline;border-width:0;" title="CommandingValidation" border="0" alt="CommandingValidation" src="http://peted.azurewebsites.net/wp-content/uploads/2010/09/commandingvalidation5b35d.png?w=300" width="510" height="190" /></a> </p> <p> </p> <p>First I started by drawing on a few external resources; the Relay Command (see <a title="Relay Command" href="http://msdn.microsoft.com/en-us/magazine/dd419663.aspx" target="_blank">http://msdn.microsoft.com/en-us/magazine/dd419663.aspx</a>) from Josh Smith and I also used a type safe INotifyPropertyChanged extension method to save me from typos when using INPC.</p><pre> </pre><pre>    <span style="color:#eaeaac;">public static class </span><span style="color:#f0dfaf;">Extensions
     </span><span style="color:#d2d200;">&#123;

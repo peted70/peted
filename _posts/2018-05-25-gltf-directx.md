@@ -2,9 +2,12 @@
 layout: single
 title: glTF &amp; DirectX
 date: 2018-05-25 00:00
-author: peted70
+author_profile: true
 comments: true
 categories: [3D, c#, coroutines, DX11, fluent, glb, gltf, glTF, treeview, uwp, UWP]
+header:
+    teaserlogo: 'assets/images/'
+    teaser: 'assets/images/'
 ---
 <h4>3D File Formats</h4>
 <a href="http://peted.azurewebsites.net/wp-content/uploads/2018/05/screenshot1.png"><img style="display: inline; background-image: none;" title="screenshot1" src="http://peted.azurewebsites.net/wp-content/uploads/2018/05/screenshot1_thumb.png" alt="screenshot1" width="670" height="440" border="0" /></a>

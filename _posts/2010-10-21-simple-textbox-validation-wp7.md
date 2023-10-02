@@ -2,9 +2,12 @@
 layout: single
 title: Simple textbox validation wp7
 date: 2010-10-21 09:58
-author: peted70
+author_profile: true
 comments: true
 categories: [Windows Phone 7]
+header:
+    teaserlogo: 'assets/images/'
+    teaser: 'assets/images/'
 ---
 <p>Since wp7 is based on Silverlight 3 then input validation can be done (love or loathe it) via exceptions. Here’s a simple example…</p>  <pre class="code">        <span style="color:#d2d200;">&lt;Grid x:Name=</span><span style="color:white;">&quot;ContentPanel&quot; </span><span style="color:#d2d200;">Grid.Row=</span><span style="color:white;">&quot;1&quot;</span><span style="color:#d2d200;">&gt;
             &lt;Border x:Name=</span><span style="color:white;">&quot;errorBorder&quot; </span><span style="color:#d2d200;">Background=</span><span style="color:white;">&quot;Red&quot; </span><span style="color:#d2d200;">Opacity=</span><span style="color:white;">&quot;0&quot;</span><span style="color:#d2d200;">&gt;&lt;/Border&gt;

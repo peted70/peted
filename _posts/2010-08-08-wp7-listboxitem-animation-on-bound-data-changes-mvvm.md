@@ -2,9 +2,12 @@
 layout: single
 title: WP7 ListBoxItem Animation on bound data changes (MVVM)
 date: 2010-08-08 12:29
-author: peted70
+author_profile: true
 comments: true
 categories: [MVVM, Windows Phone 7]
+header:
+    teaserlogo: 'assets/images/'
+    teaser: 'assets/images/'
 ---
 <div id="msgcns!4F1B7368284539E5!289" class="bvMsg"><h4>by Peter Daukintis</h4> <p>Recently, I found myself needing to animate a List Box Item in response to it’s underlying bound data changing in a Windows Phone 7 application. Seems like this would be a fairly common requirement. I should add that a satisfying solution would be one that would adhere to an MVVM approach, be testable and maintain a separation between view and data. Anyway, I had to do a little bit of digging around to get a solution so it may save someone else some time.</p> <p>I started out creating a new project using the ‘Windows Phone Application’ template.</p> <p> </p> <p><a href="http://peted.azurewebsites.net/wp-content/uploads/2010/09/newwp7app5b45d.png" rel="WLPP"><img style="display:block;float:none;margin-left:auto;margin-right:auto;border-width:0;" title="NewWP7App" border="0" alt="NewWP7App" src="http://peted.azurewebsites.net/wp-content/uploads/2010/09/newwp7app5b45d.png?w=300" width="738" height="393" /></a> </p> <p>I then cobbled together a view model like so,</p><pre><span style="color:#eaeaac;">using </span><span style="color:#f8ffc6;">System</span><span style="color:#d2d200;">.</span><span style="color:#f8ffc6;">Collections</span><span style="color:#d2d200;">.</span><span style="color:#f8ffc6;">ObjectModel</span><span style="color:#d2d200;">;
 </span><span style="color:#eaeaac;">using </span><span style="color:#f8ffc6;">System</span><span style="color:#d2d200;">.</span><span style="color:#f8ffc6;">ComponentModel</span><span style="color:#d2d200;">;

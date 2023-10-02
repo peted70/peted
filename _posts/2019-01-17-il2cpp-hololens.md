@@ -2,9 +2,12 @@
 layout: single
 title: IL2CPP + HoloLens
 date: 2019-01-17 17:35
-author: peted70
+author_profile: true
 comments: true
 categories: [HoloLens, HoloLens, Unity]
+header:
+    teaserlogo: 'assets/images/2019/01/managed-debugger.png'
+    teaser: 'assets/images/2019/01/managed-debugger.png'
 ---
 Following the Unity announcement about deprecating the .NET backend I have been slowly turning my attention towards using IL2CPP instead which some time in the future will be the only option for Unity HoloLens development. Of course, there are supported LTS versions but I guess it will often be the case that as frameworks and SDKs move forwards they would tend towards supporting newer features and functionality. Either way, as a HoloLens dev it wouldn’t help to at least be prepared.
 <blockquote>Just to give a very high-level description of what this means; using the .NET backend generates a .NET UWP project when building my Unity project for HoloLens. This means debugging C# code in Visual Studio and deploying a .NET (or .NET native) app to a HoloLens device. When I build an IL2CPP project in Unity it creates a native C++ Visual Studio project which is generated from the C# that you write in your Unity scripts. So effectively converts .NET code into native C++.</blockquote>

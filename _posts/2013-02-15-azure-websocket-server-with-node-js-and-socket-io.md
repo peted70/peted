@@ -2,9 +2,12 @@
 layout: single
 title: Azure websocket server with node.js and socket.io
 date: 2013-02-15 15:44
-author: peted70
+author_profile: true
 comments: true
 categories: [azure, Azure, nodejs, Nodejs, socketio, websockets, workerrole]
+header:
+    teaserlogo: 'assets/images/'
+    teaser: 'assets/images/'
 ---
 <p>Peter Daukintis</p>  <p>If you haven’t previously done this download your Azure publish settings file from here <a title="https://windows.azure.com/download/publishprofile.aspx" href="https://windows.azure.com/download/publishprofile.aspx">https://windows.azure.com/download/publishprofile.aspx</a></p>  <p>This will contain your management certificate and details for each of your Azure subscriptions.</p>  <p>&#160;</p>  <p>If you have multiple Azure subscriptions ensure that you have set the ‘current’ one to be the one you wish to use:</p>  <p><strong>Select-AzureSubscription –SubscriptionName your_subscription_name</strong></p>  <p>You can confirm this is set by using,</p>  <p><strong>Get-AzureSubscription -Current</strong>&#160;</p>  <p>Then, to create the Azure project</p>  <p><strong>New-AzureServiceProject your_project_name</strong></p>  <p>This will create the files needed by the Azure cloud project (including deployment settings, cloud/local configuration files and a service definition file). </p>  <p><strong>Add-AzureNodeWorkerRole</strong></p>  <p>This will add a WorkerRole folder which contains the Node project</p>  <p><a href="http://peted.azurewebsites.net/wp-content/uploads/2013/02/ps2.png"><img title="ps2" style="border-top:0;border-right:0;background-image:none;border-bottom:0;float:none;padding-top:0;padding-left:0;margin-left:auto;border-left:0;display:block;padding-right:0;margin-right:auto;" border="0" alt="ps2" src="http://peted.azurewebsites.net/wp-content/uploads/2013/02/ps2_thumb.png" width="658" height="113" /></a></p>  <p>then, from within the WorkRole folder, </p>  <p><strong>npm install azure </strong>(optional – enables access to azure services within your node project see <a title="https://npmjs.org/package/azure" href="https://npmjs.org/package/azure">https://npmjs.org/package/azure</a>)</p>  <p><strong>npm install socket.io</strong></p>  <p>navigate to the worker role folder and replace the code in server.js with the following:</p>  <div class="csharpcode">   <pre class="alt"><span class="lnum">   1:  </span><span class="kwrd">var</span> http = require(<span class="str">'http'</span>); </pre>
 

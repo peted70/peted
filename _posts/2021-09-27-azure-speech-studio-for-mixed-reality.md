@@ -1,10 +1,21 @@
 ---
 layout: single
 title: Azure Speech Studio for Mixed Reality
+excerpt: "It is not uncommon that a Mixed Reality experience requires more user guidance than traditional applications; partially because the user may not be familiar with the capabilities of the application but also because they may not be accustomed to using Mixed Reality applications in general."
 date: 2021-09-27 12:13
-author: peted70
+author_profile: true
 comments: true
 categories: [azure, Azure, HoloLens, HoloLens, mixedreality, speech, unreal engine, unreal engine]
+header:
+    teaserlogo: 'assets/images/2021/09/mr-voiceover.png'
+    teaser: 'assets/images/2021/09/mr-voiceover.png'
+#     image: ''
+#     caption: ''
+# gallery:
+#   - image_path: ''
+#     url: ''
+#     title: ''
+
 ---
 <!-- wp:image {"id":8653,"sizeSlug":"large","linkDestination":"none"} -->
 <figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2021/09/mr-voiceover.png" alt="" class="wp-image-8653"/></figure>

@@ -2,9 +2,12 @@
 layout: single
 title: Shader Stereo instancing HoloLens
 date: 2019-03-14 10:34
-author: peted70
+author_profile: true
 comments: true
 categories: [HoloLens, HoloLens, performance, shaders, stereoscopic, unity, unity3d]
+header:
+    teaserlogo: 'assets/images/2019/03/single-eye.jpg'
+    teaser: 'assets/images/2019/03/single-eye.jpg'
 ---
 <a href="http://peted.azurewebsites.net/wp-content/uploads/2019/03/single-eye.jpg"><img style="display: inline; background-image: none;" title="single-eye" src="http://peted.azurewebsites.net/wp-content/uploads/2019/03/single-eye_thumb.jpg" alt="single-eye" width="670" height="504" border="0" /></a>
 

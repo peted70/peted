@@ -2,9 +2,12 @@
 layout: single
 title: Data Binding Pivot Control WP7 MVVM
 date: 2010-09-20 00:49
-author: peted70
+author_profile: true
 comments: true
 categories: [MVVM, Windows Phone 7]
+header:
+    teaserlogo: 'assets/images/'
+    teaser: 'assets/images/'
 ---
 <div id="msgcns!4F1B7368284539E5!298" class="bvMsg"><p>by Peter Daukintis</p> <p>Ok, having had access to the official WP7 Pivot control in the RTM Tools for Windows Phone 7 for a few days I thought it was time to explore and particularly in it’s data binding capabilities. I knocked up a quick and dirty example for a forum response but felt the need to explore a bit further…</p> <p>The example consisted of binding the Pivot control to a homogenous view model collection. All well and good but in real life the requirements would be more like handling a heterogenous data source and binding the page headers, etc..</p> <p>So, we start with the control bound to a PageCollection</p><pre><span style="color:#d2d200;">&lt;controls:Pivot ItemsSource=&quot;&#123;</span><span style="color:cyan;">Binding </span><span style="color:white;">PageCollection</span><span style="color:#d2d200;">&#125;</span><span style="color:white;">&quot; 
                         </span><span style="color:#d2d200;">Title=</span><span style="color:white;">&quot;MY APPLICATION&quot; 

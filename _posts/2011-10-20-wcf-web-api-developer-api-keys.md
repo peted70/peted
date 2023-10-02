@@ -2,9 +2,12 @@
 layout: single
 title: WCF web api + developer APi keys
 date: 2011-10-20 15:27
-author: peted70
+author_profile: true
 comments: true
 categories: [WCF]
+header:
+    teaserlogo: 'assets/images/'
+    teaser: 'assets/images/'
 ---
 <p>I found myself with the requirement of needing custom authorization for a rest-style web API. The requirements would be something along the lines of Netflix, Twitter, etc. APIs whereby there is a need to identify an application making calls to the service. Most of these APIs seem to follow a familiar pattern of dishing out a developer API key consisting of a private key and a public key. If you’re not familiar with the basics of public key cryptography see <a title="http://en.wikipedia.org/wiki/Public-key_cryptography" href="http://en.wikipedia.org/wiki/Public-key_cryptography">http://en.wikipedia.org/wiki/Public-key_cryptography</a>.</p>  <p>This post is not about that, though! The purpose for this is to show the code I ended with to integrate the solution into WCF Web API (<a title="http://wcf.codeplex.com/" href="http://wcf.codeplex.com/">http://wcf.codeplex.com/</a>). An additional requirement was that some of the API required the auth and some of it didn’t.</p>  <p>I also investigated the OAuth 1.0 spec and it appeared to support my scenario but with extra, unnecessary steps. (I haven’t yet investigated OAuth 2.0 fully).</p>  <p>There appears to be a lot of information floating around on this subject (see <a title="http://weblogs.asp.net/cibrax/archive/2011/04/15/http-message-channels-in-wcf-web-apis-preview-4.aspx" href="http://weblogs.asp.net/cibrax/archive/2011/04/15/http-message-channels-in-wcf-web-apis-preview-4.aspx">http://weblogs.asp.net/cibrax/archive/2011/04/15/http-message-channels-in-wcf-web-apis-preview-4.aspx</a> and <a title="http://haacked.com/archive/2011/10/19/implementing-an-authorization-attribute-for-wcf-web-api.aspx" href="http://haacked.com/archive/2011/10/19/implementing-an-authorization-attribute-for-wcf-web-api.aspx">http://haacked.com/archive/2011/10/19/implementing-an-authorization-attribute-for-wcf-web-api.aspx</a>, amongst others). </p>  <p>Anyway, I’ll run through the steps of what I did for this so far….</p>  <p>So first, I created a blank ASP.NET MVC3 application. I added some routes in the RegisterRoutes method in Global.asax.cs, one for each API:</p>    <div id="codeSnippetWrapper" class="csharpcode-wrapper">   <div id="codeSnippet" class="csharpcode">     <pre class="alt"><span id="lnum1" class="lnum">   1:</span> routes.Add(<span class="kwrd">new</span> ServiceRoute(<span class="str">&quot;api/authedapi&quot;</span>,</pre>
 <!--CRLF-->

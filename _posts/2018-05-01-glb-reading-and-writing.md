@@ -2,9 +2,12 @@
 layout: single
 title: GLB reading and writing
 date: 2018-05-01 16:20
-author: peted70
+author_profile: true
 comments: true
 categories: [3D, 3D, 3dmodels, c++, glb, gltf]
+header:
+    teaserlogo: 'assets/images/'
+    teaser: 'assets/images/'
 ---
 <a href="http://peted.azurewebsites.net/wp-content/uploads/2018/05/gltf.png"><img style="display: inline; background-image: none;" title="gltf" src="http://peted.azurewebsites.net/wp-content/uploads/2018/05/gltf_thumb.png" alt="gltf" width="664" height="243" border="0" /></a>
 

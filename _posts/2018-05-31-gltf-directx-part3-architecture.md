@@ -2,9 +2,12 @@
 layout: single
 title: glTF &amp; DirectX part3 - architecture
 date: 2018-05-31 14:12
-author: peted70
+author_profile: true
 comments: true
 categories: [3D, 3D, 3dmodels, c++, DirectX, directx, gltf, glTF, UWP, uwp]
+header:
+    teaserlogo: 'assets/images/'
+    teaser: 'assets/images/'
 ---
 <blockquote>
 <h4><a href="http://peted.azurewebsites.net/wp-content/uploads/2018/05/corset.png"><img style="display: inline; background-image: none;" title="corset" src="http://peted.azurewebsites.net/wp-content/uploads/2018/05/corset_thumb.png" alt="corset" width="625" height="366" border="0" /></a></h4>

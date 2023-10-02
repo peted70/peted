@@ -2,9 +2,12 @@
 layout: single
 title: WP7 looping selector
 date: 2010-09-22 23:15
-author: peted70
+author_profile: true
 comments: true
 categories: [Windows Phone 7]
+header:
+    teaserlogo: 'assets/images/'
+    teaser: 'assets/images/'
 ---
 <div id="msgcns!4F1B7368284539E5!301" class="bvMsg"><p>by Peter Daukintis </p> <p>After release of the RTM software tools for WP7 I was pleased to see the looping controls manifested as DatePicker and TimePicker since I was considering creating similar…These are built on top of the LoopingSelector control which has the usual support for ItemTemplates and data binding.</p> <p>So, after adding a reference to Microsoft.Phone.Controls.Toolkit I added this to my xaml:</p> <p><span style="color:#d2d200;"><pre><span style="color:#d2d200;">&lt;Primitives:LoopingSelector ItemSize=</span><span style="color:white;">&quot;100,160&quot; </span><span style="color:#d2d200;">x:Name=</span><span style="color:white;">&quot;loop&quot; </span><span style="color:#d2d200;">DataSource=&quot;&#123;</span><span style="color:cyan;">Binding </span><span style="color:white;">Data</span><span style="color:#d2d200;">&#125;</span><span style="color:white;">&quot;</span><span style="color:#d2d200;">&gt;
                 &lt;Primitives:LoopingSelector.ItemTemplate&gt;

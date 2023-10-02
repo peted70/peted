@@ -2,9 +2,12 @@
 layout: single
 title: Data Binding Panorama Control WP7 MVVM
 date: 2010-09-25 12:31
-author: peted70
+author_profile: true
 comments: true
 categories: [MVVM, Windows Phone 7]
+header:
+    teaserlogo: 'assets/images/'
+    teaser: 'assets/images/'
 ---
 <p></p>
 <div id="msgcns!4F1B7368284539E5!306" class="bvMsg">

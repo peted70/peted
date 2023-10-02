@@ -2,9 +2,12 @@
 layout: single
 title: glTF + DirectX part 2
 date: 2018-05-25 23:50
-author: peted70
+author_profile: true
 comments: true
 categories: [3D, 3D, 3dmodels, c#, c++, directx, DirectX, glb, glTF, gltf]
+header:
+    teaserlogo: 'assets/images/'
+    teaser: 'assets/images/'
 ---
 <blockquote>
 <h4>Following the initial intro post see <a title="http://peted.azurewebsites.net/gltf-directx/" href="http://peted.azurewebsites.net/gltf-directx/">http://peted.azurewebsites.net/gltf-directx/</a> I’m going to write a few follow up posts to highlight some of my learnings from writing this sample</h4>
