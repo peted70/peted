@@ -186,7 +186,7 @@ https://www.youtube.com/watch?v=vEovjyY2u5k
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>I used my project template that I created in a previous post (see <a href="https://peted.azurewebsites.net/hololens-2-unreal-project-template/">Unreal Project Template</a>. Alternatively, you could follow the official tutorial <a href="https://docs.microsoft.com/en-us/windows/mixed-reality/develop/unreal/tutorials/unreal-uxt-ch1">here</a></p>
+<p>I used my project template that I created in a previous post (see <a href="{{ site.baseurl }}/hololens/mixed%20reality/mrtk/unreal%20engine/2021/06/27/hololens-2-unreal-project-template.html">Unreal Project Template</a>. Alternatively, you could follow the official tutorial <a href="https://docs.microsoft.com/en-us/windows/mixed-reality/develop/unreal/tutorials/unreal-uxt-ch1">here</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

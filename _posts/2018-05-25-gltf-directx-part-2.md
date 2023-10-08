@@ -11,7 +11,7 @@ header:
     teaser: 'assets/images/2018/05/clip_image001_thumb-1.png'
 ---
 <blockquote>
-<h4>Following the initial intro post see <a title="http://peted.azurewebsites.net/gltf-directx/" href="http://peted.azurewebsites.net/gltf-directx/">http://peted.azurewebsites.net/gltf-directx/</a> I’m going to write a few follow up posts to highlight some of my learnings from writing this sample</h4>
+<h4>Following the initial intro post see <a title="{{site.baseurl}}/3d/c%23/coroutines/dx11/fluent/glb/gltf/treeview/uwp/2018/05/25/gltf-directx.html" href="{{site.baseurl}}/3d/c%23/coroutines/dx11/fluent/glb/gltf/treeview/uwp/2018/05/25/gltf-directx.html">{{site.baseurl}}/3d/c%23/coroutines/dx11/fluent/glb/gltf/treeview/uwp/2018/05/25/gltf-directx.html</a> I’m going to write a few follow up posts to highlight some of my learnings from writing this sample</h4>
 </blockquote>
 <h4>glTF</h4>
 glTF has been designed with some fundamental principles in mind;
@@ -26,7 +26,7 @@ Just the basic features of glTF are supported for now so the sample does not cur
 
 <a href="{{ site.baseurl }}/assets/images/2018/05/clip_image002-1.png"><img style="display: inline; background-image: none;" title="clip_image002" src="{{ site.baseurl }}/assets/images/2018/05/clip_image002_thumb-1.png" alt="clip_image002" width="670" height="434" border="0" /></a>
 <h4>Loader</h4>
-Initially, I started the project with my own file parser but I replaced that with the <a href="https://www.nuget.org/packages/Microsoft.glTF.CPP" target="_blank" rel="noopener">Microsoft.glTF.CPP</a> library obtained via Nuget which includes deserialisation of a glTF and also serialisation which I am not currently using. I have an example of the library's usage here <a href="http://peted.azurewebsites.net/glb-reading-and-writing/">http://peted.azurewebsites.net/glb-reading-and-writing/</a>
+Initially, I started the project with my own file parser but I replaced that with the <a href="https://www.nuget.org/packages/Microsoft.glTF.CPP" target="_blank" rel="noopener">Microsoft.glTF.CPP</a> library obtained via Nuget which includes deserialisation of a glTF and also serialisation which I am not currently using. I have an example of the library's usage here <a href="{{site.baseurl}}/3d/3dmodels/c++/glb/gltf/2018/05/01/glb-reading-and-writing.html">{{site.baseurl}}/3d/3dmodels/c++/glb/gltf/2018/05/01/glb-reading-and-writing.html</a>
 <h4>Environment Map</h4>
 In order to carry out the image-based lighting in the sample the code loads in a 'Texture Cube' which can be referenced in a pixel shader to lookup values from the environment and blend with the current colour on the surface being rendered. The pixel shader can sample the texture cube at a reflection vector on a point on the surface and factor that into the lighting calculation. There is one set of images used for the texture cube in the sample code and you can see its effect on the Boombox model:
 

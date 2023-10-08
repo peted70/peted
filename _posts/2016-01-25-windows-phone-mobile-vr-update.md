@@ -10,9 +10,9 @@ header:
     teaser: 'assets/images/'
 ---
 Its over a year now since I published these two blog posts:
-<blockquote><a title="http://peted.azurewebsites.net/windows-phone-mobile-vr-gyro-head-tracking-in-unity3d/" href="http://peted.azurewebsites.net/windows-phone-mobile-vr-gyro-head-tracking-in-unity3d/" target="_blank">Windows Phone Mobile VR (Gyro Head Tracking in Unity3D)</a>
+<blockquote><a title="{{site.baseurl}}/unity/unity3d/vr/wp8/2015/01/08/windows-phone-mobile-vr-gyro-head-tracking-in-unity3d.html" href="{{site.baseurl}}/unity/unity3d/vr/wp8/2015/01/08/windows-phone-mobile-vr-gyro-head-tracking-in-unity3d.html" target="_blank">Windows Phone Mobile VR (Gyro Head Tracking in Unity3D)</a>
 
-<a title="http://peted.azurewebsites.net/windows-phone-mobile-vr-stereoscopic-rendering-lens-distortion-in-unity-3d/" href="http://peted.azurewebsites.net/windows-phone-mobile-vr-stereoscopic-rendering-lens-distortion-in-unity-3d/" target="_blank">Windows Phone Mobile VR (Stereoscopic Rendering + Lens Distortion in Unity 3D)</a></blockquote>
+<a title="{{site.baseurl}}/headset/mobile%20vr/unity/visr/vr/windows%20phone/2015/01/29/windows-phone-mobile-vr-stereoscopic-rendering-lens-distortion-in-unity-3d.html" href="{{site.baseurl}}/headset/mobile%20vr/unity/visr/vr/windows%20phone/2015/01/29/windows-phone-mobile-vr-stereoscopic-rendering-lens-distortion-in-unity-3d.html" target="_blank">Windows Phone Mobile VR (Stereoscopic Rendering + Lens Distortion in Unity 3D)</a></blockquote>
 which discussed some introductory topics around mobile virtual reality; head tracking and stereoscopic rendering and demonstrated a way to create VR experiences using Windows Phone, ALPS-VR and a ViSR ‘cardboard’ headset.
 
 I wanted to update here with some links and info around Windows Phone mobile VR:
