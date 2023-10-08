@@ -5,11 +5,12 @@ date: 2019-01-17 16:42
 author_profile: true
 comments: true
 categories: [HoloLens, HoloLens, mixedreality, msgraph, oauth2, oauth2]
+excerpt: "This flow allows the auth to happen on a second device which may be more convenient if typing passwords or codes is required on a HoloLens device given that the keyboard uses a gaze + air-tap input mechanism..."
 header:
     teaserlogo: 'assets/images/2019/01/device-code_thumb.png'
     teaser: 'assets/images/2019/01/device-code_thumb.png'
 ---
-<a href="http://peted.azurewebsites.net/wp-content/uploads/2019/01/device-code.png"><img style="display: inline; background-image: none;" title="device-code" src="http://peted.azurewebsites.net/wp-content/uploads/2019/01/device-code_thumb.png" alt="device-code" width="670" height="526" border="0" /></a>
+<a href="{{ site.baseurl }}/assets/images/2019/01/device-code.png"><img style="display: inline; background-image: none;" title="device-code" src="{{ site.baseurl }}/assets/images/2019/01/device-code_thumb.png" alt="device-code" width="670" height="526" border="0" /></a>
 
 I was working with a sample that I had <a href="https://peted.azurewebsites.net/microsoft-graph-auth-on-hololens/" target="_blank" rel="noopener">previously written</a> using the Microsoft Auth Library which was originally used as an example of delegated auth on HoloLens but I recently extended the sample to also show 'device code flow' which you can see in the OAuth 2.0 spec here <a title="https://oauth.net/2/grant-types/device-code/" href="https://oauth.net/2/grant-types/device-code/">https://oauth.net/2/grant-types/device-code/</a>. This flow allows the auth to happen on a second device which may be more convenient if typing passwords or codes is required on a HoloLens device given that the keyboard uses a gaze + air-tap input mechanism.
 

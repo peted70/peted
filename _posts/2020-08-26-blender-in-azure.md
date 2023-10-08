@@ -11,7 +11,7 @@ header:
     teaser: 'assets/images/2020/08/blender-logo.png'
 ---
 <!-- wp:image {"id":8485,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="http://peted.azurewebsites.net/wp-content/uploads/2020/08/blender-logo.png" alt="" class="wp-image-8485"/></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2020/08/blender-logo.png" alt="" class="wp-image-8485"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:jetpack/markdown {"source":"Blender has been receiving some well-deserved attention recently. In particular some big companies (including Microsoft) who understand the importance of this 3D content creation tool as we move towards a spatial computing-oriented landscape.\n\nBlender has been hitting the news with some notable additions to the [Blender Development Fund](https://fund.blender.org/)"} -->
@@ -21,7 +21,7 @@ header:
 <!-- /wp:jetpack/markdown -->
 
 <!-- wp:image {"id":8459,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="http://peted.azurewebsites.net/wp-content/uploads/2020/08/blenderdevfund.png" alt="" class="wp-image-8459"/></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2020/08/blenderdevfund.png" alt="" class="wp-image-8459"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:jetpack/markdown {"source":"\u003e Blender has been around for 25 years or so as a free and open source 3D content creation and rendering tool. It has become a cornerstone in the 3D pipeline and it's freeness sets it apart from some of it's competitors. The industry investment is a signal that Blender is a key piece of technology for the future landscape and another indicator that the tipping point for adoption of spatial computing is in the not-too-distant future.  \n\nIn this post I will explore running Blender in an Azure function in order to automate elements of a 3D model pipeline in a scalable and cost-effective way. I will provide a code repo of all of the elements required from the Azure Function code to an example Docker file describing the container that we will run the Azure function in to some example Python scripts which allow automation of Blender functionality.\n\n## Content Pipeline\n\nJust to set the scene I'll give a simple illustrative example of what I mean by a content pipeline and give some examples of what it might be used for. So, imagine that I am starting with some high-resolution 3D models that have been created with some scanning hardware and the model has too much geometry to run efficiently on a mobile device such as HoloLens or a mobile phone. I also have some software that will optimise the model for the target devices but it only takes the glTF file format as input. So if I can create a pipeline node that will convert my input file to and from glTF then I can string nodes together as below to create my content pipeline."} -->
@@ -35,7 +35,7 @@ header:
 <!-- /wp:jetpack/markdown -->
 
 <!-- wp:image {"id":8460,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="http://peted.azurewebsites.net/wp-content/uploads/2020/08/content-pipeline.png" alt="" class="wp-image-8460"/></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2020/08/content-pipeline.png" alt="" class="wp-image-8460"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:jetpack/markdown {"source":"Blender can very easily be used to automate 3D file format conversions but can also be used to automate more complex scenarios such as:\n\n- Generating synthetic data for input to train Machine Learning models to do object recognition\n\n- Generating normal maps by baking lighting information from a high density 3D model onto a normal map to be used with a model that has reduced geometry so we can preserve a lot of the lighting detail.\n\n- Generating a rendered movie of a camera orbiting around a 3D model so that the result can be checked as part of a model quality checking process\n\nThese are a few useful examples that spring to mind as I have real-world experience with these but of course, the combinations are endless and given a set of processing nodes can be configured to fit the scenario.\n\nThe rest of this post will be concerned with all aspects of setting up a pipeline like this. The moving parts we will need to understand for this are:\n\n- How do we automate Blender to carry out the processing for nodes we might need?\n\n- How can we host the processing in the cloud? We are going to be using the Azure cloud for this.\n\n## Blender\n\nBlender can be used for 3D modeling, sculpting, creating and applying materials, rendering, character rigging, particle simulation, animation, 2D animation, editing and compositing.\n\n\u003e For Windows 10 users; Blender also appears in the Windows 10 Store so you can make use of auto-updates\n\n### Blender Automation\n\nSo, as well as all of the rich functionality for 3D content creation we can also automate it using the Python scripting interface. Blender has an embedded Python interpreter and a Python library exposing most of the functionality. The first step would be to open the Scripting tab which can be found along the top of the application to the far right.\n"} -->
@@ -72,7 +72,7 @@ header:
 <!-- /wp:jetpack/markdown -->
 
 <!-- wp:image {"id":8463,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="http://peted.azurewebsites.net/wp-content/uploads/2020/08/blender-scripting-small-.gif" alt="" class="wp-image-8463"/><figcaption>Blender Scripting</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2020/08/blender-scripting-small-.gif" alt="" class="wp-image-8463"/><figcaption>Blender Scripting</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:jetpack/markdown {"source":"This configures Blender into a scripting-friendly workspace where you have the following windows:\n\n- 3D viewport\n\n\u003e The usual 3D viewport but allows you to visualise script commands as you run them\n\n- Python console\n\n\u003e You can run commands here and also explore the bpy library. type **bpy.** and then press **TAB** for an autocomplete list\n\n- Info window\n\n\u003e As you carry out user operations in Blender the associated script will get output here. You can copy the output from here directly into your script. (Note. this won't always give you what you want as some of the operations are highly context sensitive but it provides a good starting point)\n\n- Text Editor (where we write the Python code)\n\n\u003e Enter the text for the script here, always starting with **import bpy**. Under the templates menu you can find examples of python scripting from creating add-ons to UI-driven scripts. (We're only interested in **Background Job** for now).\n"} -->
@@ -105,7 +105,7 @@ header:
 <!-- /wp:jetpack/markdown -->
 
 <!-- wp:image {"id":8466,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="http://peted.azurewebsites.net/wp-content/uploads/2020/08/python-templates.png" alt="" class="wp-image-8466"/><figcaption>Python Templates</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2020/08/python-templates.png" alt="" class="wp-image-8466"/><figcaption>Python Templates</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:jetpack/markdown {"source":"I'm not going to attempt a tutorial of this as there are many online already but I have included some useful tips.\n\n#### Visual Studio Code Extension\n\nOne last tip is to point you at the VS Code Extension for Blender Development.\n\n"} -->
@@ -116,7 +116,7 @@ header:
 <!-- /wp:jetpack/markdown -->
 
 <!-- wp:image {"id":8467,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="http://peted.azurewebsites.net/wp-content/uploads/2020/08/vscode-ext.png" alt="" class="wp-image-8467"/><figcaption>VS Code Extension</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2020/08/vscode-ext.png" alt="" class="wp-image-8467"/><figcaption>VS Code Extension</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:jetpack/markdown {"source":"## Example Content Pipeline Script\n\nI'll now present the example script I'm going to use for this post.\n\nThe script is an example of how you can run blender from the command line (in background mode with no interface) to automate tasks. This example will\n\n\u003e - load a .obj file\n\u003e - load albedo, normal and ambient occlusion/roughness/metallic maps\n\u003e - create a Principled BSDF material using those textures as input\n\u003e - output the file as either an obj + obj material (without the PBR textures since those are unsupported in obj format) or a glTF file with the PBR textures assigned.\n\nFor now, to run this you would need to have blender installed and it's executable location in your PATH. Then you can run it like this where all args after the \u002d\u002d are passed to the script. File output options are currently gltf and obj.\n"} -->
@@ -152,7 +152,7 @@ header:
 <!-- /wp:jetpack/markdown -->
 
 <!-- wp:image {"id":8469,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="http://peted.azurewebsites.net/wp-content/uploads/2020/08/blender-script-1-.gif" alt="" class="wp-image-8469"/></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2020/08/blender-script-1-.gif" alt="" class="wp-image-8469"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:jetpack/markdown {"source":"\u003e The sample input is provided in the Github repo\n\nHere's the main part of the script:\n"} -->
@@ -287,7 +287,7 @@ header:
 <!-- /wp:jetpack/markdown -->
 
 <!-- wp:image {"id":8470,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="http://peted.azurewebsites.net/wp-content/uploads/2020/08/obj-shader.png" alt="" class="wp-image-8470"/><figcaption>.obj PBR Material</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2020/08/obj-shader.png" alt="" class="wp-image-8470"/><figcaption>.obj PBR Material</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:jetpack/markdown {"source":"## Running on Azure\n\nSo, we have our unit of processing that we can currently run from the command line. (I'm developing this on Windows but this would also run on Linux or Mac).\n\nI decided to set up a Docker container with Blender installed and a selection of python scripts copied over and ready to be called.\n\nThis choice, while seemingly simple involved some trade-offs and considerations:\n\n- An Azure function hosted in a custom container requires an App Service Plan and does not run in the usual Consumption Plan providing true pay-as-you-go.\n\n- Using a container approach makes the solution flexible and the service layer can be switched more easily and the containers can be run locally on a development PC or on a local network.\n\n- Azure Container Instances presented another possible solution possibly using a Logic App or Durable Function to coordinate the containers.\n\nEither way, I decided to start first by creating a custom Docker container.\n\n### Docker\n\n"} -->
@@ -489,7 +489,7 @@ public static async Task&lt;IActionResult> Run(
 <!-- /wp:jetpack/markdown -->
 
 <!-- wp:image {"id":8471,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="http://peted.azurewebsites.net/wp-content/uploads/2020/08/docker-vscode-ext.png" alt="" class="wp-image-8471"/><figcaption>VS Code Docker Extension</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2020/08/docker-vscode-ext.png" alt="" class="wp-image-8471"/><figcaption>VS Code Docker Extension</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:jetpack/markdown {"source":"If we were to start in debugging session from VS Code at this point the Docker extension would throw up this error:\n"} -->
@@ -498,7 +498,7 @@ public static async Task&lt;IActionResult> Run(
 <!-- /wp:jetpack/markdown -->
 
 <!-- wp:image {"id":8472,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="http://peted.azurewebsites.net/wp-content/uploads/2020/08/no-running-containers.png" alt="" class="wp-image-8472"/><figcaption>No running containers</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2020/08/no-running-containers.png" alt="" class="wp-image-8472"/><figcaption>No running containers</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:jetpack/markdown {"source":"So how to run a container locally? Well, after heading to [Docker.com](https://www.docker.com/), installing Docker Desktop and becoming familiar with the command line tools I was able to run a local container mostly using the commands below:\n"} -->
@@ -529,7 +529,7 @@ docker exec -it &lt;container name> /bin/bash</code></pre>
 <!-- /wp:jetpack/markdown -->
 
 <!-- wp:image {"id":8473,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="http://peted.azurewebsites.net/wp-content/uploads/2020/08/docker-cli-small.gif" alt="" class="wp-image-8473"/></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2020/08/docker-cli-small.gif" alt="" class="wp-image-8473"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:jetpack/markdown {"source":"Once you have a running container then theoretically you can attach the debugger and hit some breakpoints in your Azure Function code. At the time of writing I didn't quite get this to work in VS Code. It starts well by prompting me to attach to running local containers:\n"} -->
@@ -538,7 +538,7 @@ docker exec -it &lt;container name> /bin/bash</code></pre>
 <!-- /wp:jetpack/markdown -->
 
 <!-- wp:image {"id":8474,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="http://peted.azurewebsites.net/wp-content/uploads/2020/08/vscode-attach.png" alt="" class="wp-image-8474"/><figcaption>VS Code Attach</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2020/08/vscode-attach.png" alt="" class="wp-image-8474"/><figcaption>VS Code Attach</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:jetpack/markdown {"source":"And when I select the appropriate container I am prompted to copy over the remote debugging tools:\n"} -->
@@ -547,7 +547,7 @@ docker exec -it &lt;container name> /bin/bash</code></pre>
 <!-- /wp:jetpack/markdown -->
 
 <!-- wp:image {"id":8475,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="http://peted.azurewebsites.net/wp-content/uploads/2020/08/vscode-copy-debug-tools.png" alt="" class="wp-image-8475"/><figcaption>Copy Remote Debugging Tools </figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2020/08/vscode-copy-debug-tools.png" alt="" class="wp-image-8475"/><figcaption>Copy Remote Debugging Tools </figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:jetpack/markdown {"source":"But this process never quite completes correctly for me:\n"} -->
@@ -556,7 +556,7 @@ docker exec -it &lt;container name> /bin/bash</code></pre>
 <!-- /wp:jetpack/markdown -->
 
 <!-- wp:image {"id":8476,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="http://peted.azurewebsites.net/wp-content/uploads/2020/08/Debug-error-vscode.png" alt="" class="wp-image-8476"/><figcaption>Debugging Error</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2020/08/Debug-error-vscode.png" alt="" class="wp-image-8476"/><figcaption>Debugging Error</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:jetpack/markdown {"source":"I haven't had time yet to investigate further and I switched over to VS2019 for debugging.\n\n\u003e One thing to note here is that you can run these tools in Linux on Windows with WSL2 (Windows Subsystem for Linux). [Here's](https://www.hanselman.com/blog/HowToSetUpDockerWithinWindowsSystemForLinuxWSL2OnWindows10.aspx) a guide by Scott Hanselmann on just that.\n"} -->
@@ -568,7 +568,7 @@ docker exec -it &lt;container name> /bin/bash</code></pre>
 <!-- /wp:jetpack/markdown -->
 
 <!-- wp:image {"id":8477,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="http://peted.azurewebsites.net/wp-content/uploads/2020/08/vscode-wsl2.png" alt="" class="wp-image-8477"/><figcaption>VS Code WSL2</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2020/08/vscode-wsl2.png" alt="" class="wp-image-8477"/><figcaption>VS Code WSL2</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:jetpack/markdown {"source":"Note the 'little-bit-too' subtle WSL:Ubuntu indicator reminding you that you are running linux!\n\nDuring development for this project I switched about a bit between Windows/Linux and it can get a little bit confusing. One issue is that when writing code in my Azure function and referencing the file system in the .NET code there I need a good way to work cross-platform. I suspect relative file paths are the way forward but didn't quite get how to access the Blender executable correctly.\n\n#### Deployment to Azure\n\nSo, we need to deploy our Azure Function, our Docker image and somehow run a container based on the image.\n\n##### Azure Function App\n\nI'm going to defer to [this documentation](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-function-linux-custom-image?tabs=bash%2Cportal\u0026pivots=programming-language-csharp) that I mentioned earlier to help set up an Azure Function App and push your Azure function to it.\n\nI used this command quite a lot:"} -->
@@ -593,7 +593,7 @@ docker exec -it &lt;container name> /bin/bash</code></pre>
 <!-- /wp:jetpack/markdown -->
 
 <!-- wp:image {"id":8478,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="http://peted.azurewebsites.net/wp-content/uploads/2020/08/kudu.png" alt="" class="wp-image-8478"/><figcaption>Kudu</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2020/08/kudu.png" alt="" class="wp-image-8478"/><figcaption>Kudu</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:jetpack/markdown {"source":"##### Docker Hub Continuous Deployment\n\nAs well as running the container locally we can push to a container registry. I'm using Docker Hub but [Azure Container Registry](https://azure.microsoft.com/en-us/services/container-registry/) might be worth consideration also:\n"} -->
@@ -603,7 +603,7 @@ docker exec -it &lt;container name> /bin/bash</code></pre>
 <!-- /wp:jetpack/markdown -->
 
 <!-- wp:image {"id":8479,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="http://peted.azurewebsites.net/wp-content/uploads/2020/08/docker-hub.png" alt="" class="wp-image-8479"/><figcaption>Docker Hub</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2020/08/docker-hub.png" alt="" class="wp-image-8479"/><figcaption>Docker Hub</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:jetpack/markdown {"source":"We can also set this up so that when the Dockerfile in the Github repo changes a new build of the container is kicked off.\n"} -->
@@ -612,7 +612,7 @@ docker exec -it &lt;container name> /bin/bash</code></pre>
 <!-- /wp:jetpack/markdown -->
 
 <!-- wp:image {"id":8480,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="http://peted.azurewebsites.net/wp-content/uploads/2020/08/docker-hub-builds.png" alt="" class="wp-image-8480"/><figcaption>Docker Hub Builds</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2020/08/docker-hub-builds.png" alt="" class="wp-image-8480"/><figcaption>Docker Hub Builds</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:jetpack/markdown {"source":"You can also let your Azure Function App know when there is a new image by configuring a web hook."} -->
@@ -621,7 +621,7 @@ docker exec -it &lt;container name> /bin/bash</code></pre>
 <!-- /wp:jetpack/markdown -->
 
 <!-- wp:image {"id":8481,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="http://peted.azurewebsites.net/wp-content/uploads/2020/08/az-func-app-cicd.png" alt="" class="wp-image-8481"/><figcaption>Function App CICD</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2020/08/az-func-app-cicd.png" alt="" class="wp-image-8481"/><figcaption>Function App CICD</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:jetpack/markdown {"source":"#### Testing\n\nI mostly used [Postman](https://www.postman.com/) for creating the http requests required for testing the function but any good http client will do and you can even send a test request from the Azure portal. I left support for http GET also so I could test from a browser."} -->
@@ -631,7 +631,7 @@ docker exec -it &lt;container name> /bin/bash</code></pre>
 <!-- /wp:jetpack/markdown -->
 
 <!-- wp:image {"id":8482,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="http://peted.azurewebsites.net/wp-content/uploads/2020/08/azure-portal-test-af.png" alt="" class="wp-image-8482"/><figcaption>Azure Portal Test</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2020/08/azure-portal-test-af.png" alt="" class="wp-image-8482"/><figcaption>Azure Portal Test</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:jetpack/markdown {"source":"And here's similar in Postman,"} -->
@@ -640,7 +640,7 @@ docker exec -it &lt;container name> /bin/bash</code></pre>
 <!-- /wp:jetpack/markdown -->
 
 <!-- wp:image {"id":8483,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="http://peted.azurewebsites.net/wp-content/uploads/2020/08/postman-post.png" alt="" class="wp-image-8483"/><figcaption>Test using Postman</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/assets/images/2020/08/postman-post.png" alt="" class="wp-image-8483"/><figcaption>Test using Postman</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:jetpack/markdown {"source":"Notice the little drop-down on the **Send** button for **Send \u0026 Download** which I used to download the resulting zip archive.\n\n\u003e Note that the Input Zip Uri is specified as a SAS uri which helps to control access to the blob and can be configured and created in the [Azure Portal](https://portal.azure.com/)\n\n## Further Work\n\nI realise that this post in now becoming quite long so I am going to wrap up but I also wanted to include other areas that I would have liked to move onto given the time:\n\n- Cost analysis\n\n- Scaling analysis\n\n- Azure Functions vs Azure Container Instances\n\n- Extended, useful Blender scripts and an interface to selectively run functionality in those scripts\n\n- Considerations for rendering\n"} -->

@@ -9,7 +9,7 @@ header:
     teaserlogo: 'assets/images/'
     teaser: 'assets/images/'
 ---
-<p>Since the new Mango developer tools were just released I wanted to write a quick post on PathListBox since I have been looking for an excuse to give it a try. PathListBox allows layout of list box items along an arbitrary path (see <a href="http://msdn.microsoft.com/en-us/library/microsoft.expression.controls.pathlistbox(v=expression.40).aspx">PathListBox</a>). So, after installing the Mango developer tools <a title="http://www.microsoft.com/downloads/en/details.aspx?FamilyID=77586864-ab15-40e1-bc38-713a95a56a05&amp;displaylang=en" href="http://www.microsoft.com/downloads/en/details.aspx?FamilyID=77586864-ab15-40e1-bc38-713a95a56a05&amp;displaylang=en">http://www.microsoft.com/downloads/en/details.aspx?FamilyID=77586864-ab15-40e1-bc38-713a95a56a05&amp;displaylang=en</a>, I created a standard Windows Phone 7 project (targeting 7.1). I opened it in Blend and using the pen tool drew a path and removed any fill or stroke colours…</p>  <p>&#160;</p>  <p><a href="http://peted.azurewebsites.net/wp-content/uploads/2011/05/pathlistbox1.png"><img style="background-image:none;padding-left:0;padding-right:0;display:block;float:none;margin-left:auto;margin-right:auto;padding-top:0;border-width:0;" title="pathlistbox1" border="0" alt="pathlistbox1" src="http://peted.azurewebsites.net/wp-content/uploads/2011/05/pathlistbox1_thumb.png" width="411" height="584" /></a></p>  <p>&#160;</p>  <p>I then added a PathListBox from the tool box and in it’s property pane, under the Layout Paths section clicked the target icon next to ‘Select an object to use as a Layout path’, and then choose the path. Now any items subsequently added to the PathListBox will be positioned on this path. </p>  <p>&#160;</p>  <p>I created a ViewModel class and bound it to the DataContext of the MainPage…</p>  <p>&#160;</p>  <pre class="code">        <span style="color:#dac6a5;">public </span><span style="color:#d7d7c8;">MainPage()
+<p>Since the new Mango developer tools were just released I wanted to write a quick post on PathListBox since I have been looking for an excuse to give it a try. PathListBox allows layout of list box items along an arbitrary path (see <a href="http://msdn.microsoft.com/en-us/library/microsoft.expression.controls.pathlistbox(v=expression.40).aspx">PathListBox</a>). So, after installing the Mango developer tools <a title="http://www.microsoft.com/downloads/en/details.aspx?FamilyID=77586864-ab15-40e1-bc38-713a95a56a05&amp;displaylang=en" href="http://www.microsoft.com/downloads/en/details.aspx?FamilyID=77586864-ab15-40e1-bc38-713a95a56a05&amp;displaylang=en">http://www.microsoft.com/downloads/en/details.aspx?FamilyID=77586864-ab15-40e1-bc38-713a95a56a05&amp;displaylang=en</a>, I created a standard Windows Phone 7 project (targeting 7.1). I opened it in Blend and using the pen tool drew a path and removed any fill or stroke colours…</p>  <p>&#160;</p>  <p><a href="{{ site.baseurl }}/assets/images/2011/05/pathlistbox1.png"><img style="background-image:none;padding-left:0;padding-right:0;display:block;float:none;margin-left:auto;margin-right:auto;padding-top:0;border-width:0;" title="pathlistbox1" border="0" alt="pathlistbox1" src="{{ site.baseurl }}/assets/images/2011/05/pathlistbox1_thumb.png" width="411" height="584" /></a></p>  <p>&#160;</p>  <p>I then added a PathListBox from the tool box and in it’s property pane, under the Layout Paths section clicked the target icon next to ‘Select an object to use as a Layout path’, and then choose the path. Now any items subsequently added to the PathListBox will be positioned on this path. </p>  <p>&#160;</p>  <p>I created a ViewModel class and bound it to the DataContext of the MainPage…</p>  <p>&#160;</p>  <pre class="code">        <span style="color:#dac6a5;">public </span><span style="color:#d7d7c8;">MainPage()
         {
             DataContext = </span><span style="color:#dac6a5;">new </span><span style="color:#efefaf;">ViewModel</span><span style="color:#d7d7c8;">();            
             InitializeComponent();
@@ -86,7 +86,7 @@ header:
 
 <p>&#160;</p>
 
-<p><a href="http://peted.azurewebsites.net/wp-content/uploads/2011/05/pathlistbox3.png"><img style="background-image:none;border-bottom:0;border-left:0;padding-left:0;padding-right:0;display:block;float:none;margin-left:auto;border-top:0;margin-right:auto;border-right:0;padding-top:0;" title="pathlistbox3" border="0" alt="pathlistbox3" src="http://peted.azurewebsites.net/wp-content/uploads/2011/05/pathlistbox3_thumb.png" width="276" height="452" /></a></p>
+<p><a href="{{ site.baseurl }}/assets/images/2011/05/pathlistbox3.png"><img style="background-image:none;border-bottom:0;border-left:0;padding-left:0;padding-right:0;display:block;float:none;margin-left:auto;border-top:0;margin-right:auto;border-right:0;padding-top:0;" title="pathlistbox3" border="0" alt="pathlistbox3" src="{{ site.baseurl }}/assets/images/2011/05/pathlistbox3_thumb.png" width="276" height="452" /></a></p>
 
 
 
@@ -107,7 +107,7 @@ header:
 
 <p>This gave,</p>
 
-<p><a href="http://peted.azurewebsites.net/wp-content/uploads/2011/05/pathlistbox4.png"><img style="background-image:none;border-bottom:0;border-left:0;padding-left:0;padding-right:0;display:block;float:none;margin-left:auto;border-top:0;margin-right:auto;border-right:0;padding-top:0;" title="pathlistbox4" border="0" alt="pathlistbox4" src="http://peted.azurewebsites.net/wp-content/uploads/2011/05/pathlistbox4_thumb.png" width="265" height="455" /></a></p>
+<p><a href="{{ site.baseurl }}/assets/images/2011/05/pathlistbox4.png"><img style="background-image:none;border-bottom:0;border-left:0;padding-left:0;padding-right:0;display:block;float:none;margin-left:auto;border-top:0;margin-right:auto;border-right:0;padding-top:0;" title="pathlistbox4" border="0" alt="pathlistbox4" src="{{ site.baseurl }}/assets/images/2011/05/pathlistbox4_thumb.png" width="265" height="455" /></a></p>
 
 <p>&#160;</p>
 
@@ -117,7 +117,7 @@ header:
 
 <p>&#160;</p>
 
-<p><a href="http://peted.azurewebsites.net/wp-content/uploads/2011/05/pathlistbox5.png"><img style="background-image:none;border-bottom:0;border-left:0;padding-left:0;padding-right:0;display:block;float:none;margin-left:auto;border-top:0;margin-right:auto;border-right:0;padding-top:0;" title="pathlistbox5" border="0" alt="pathlistbox5" src="http://peted.azurewebsites.net/wp-content/uploads/2011/05/pathlistbox5_thumb.png" width="473" height="205" /></a></p>
+<p><a href="{{ site.baseurl }}/assets/images/2011/05/pathlistbox5.png"><img style="background-image:none;border-bottom:0;border-left:0;padding-left:0;padding-right:0;display:block;float:none;margin-left:auto;border-top:0;margin-right:auto;border-right:0;padding-top:0;" title="pathlistbox5" border="0" alt="pathlistbox5" src="{{ site.baseurl }}/assets/images/2011/05/pathlistbox5_thumb.png" width="473" height="205" /></a></p>
 
 <p>&#160;</p>
 
@@ -125,7 +125,7 @@ header:
 
 <p>&#160;</p>
 
-<p><a href="http://peted.azurewebsites.net/wp-content/uploads/2011/05/pathlistbox6.png"><img style="background-image:none;border-bottom:0;border-left:0;padding-left:0;padding-right:0;display:block;float:none;margin-left:auto;border-top:0;margin-right:auto;border-right:0;padding-top:0;" title="pathlistbox6" border="0" alt="pathlistbox6" src="http://peted.azurewebsites.net/wp-content/uploads/2011/05/pathlistbox6_thumb.png" width="333" height="403" /></a></p>
+<p><a href="{{ site.baseurl }}/assets/images/2011/05/pathlistbox6.png"><img style="background-image:none;border-bottom:0;border-left:0;padding-left:0;padding-right:0;display:block;float:none;margin-left:auto;border-top:0;margin-right:auto;border-right:0;padding-top:0;" title="pathlistbox6" border="0" alt="pathlistbox6" src="{{ site.baseurl }}/assets/images/2011/05/pathlistbox6_thumb.png" width="333" height="403" /></a></p>
 
 <p>&#160;</p>
 
@@ -161,7 +161,7 @@ header:
 
 <p>&#160;</p>
 
-<p><a href="http://peted.azurewebsites.net/wp-content/uploads/2011/05/pathlistbox7.png"><img style="background-image:none;border-bottom:0;border-left:0;padding-left:0;padding-right:0;display:block;float:none;margin-left:auto;border-top:0;margin-right:auto;border-right:0;padding-top:0;" title="pathlistbox7" border="0" alt="pathlistbox7" src="http://peted.azurewebsites.net/wp-content/uploads/2011/05/pathlistbox7_thumb.png" width="342" height="578" /></a></p>
+<p><a href="{{ site.baseurl }}/assets/images/2011/05/pathlistbox7.png"><img style="background-image:none;border-bottom:0;border-left:0;padding-left:0;padding-right:0;display:block;float:none;margin-left:auto;border-top:0;margin-right:auto;border-right:0;padding-top:0;" title="pathlistbox7" border="0" alt="pathlistbox7" src="{{ site.baseurl }}/assets/images/2011/05/pathlistbox7_thumb.png" width="342" height="578" /></a></p>
 
 <p>&#160;</p>
 

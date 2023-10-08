@@ -5,19 +5,20 @@ date: 2018-05-01 16:20
 author_profile: true
 comments: true
 categories: [3D, 3D, 3dmodels, c++, glb, gltf]
+excerpt:  "Just a quick post as I am looking at a useful Nuget package Microsoft.GLTF.cpp and wanted to note down my quick experiment with it. For an unrelated project I wrote a c++ parser for the GLB format (binary version of GLTF) and wanted to replace it with something better"
 header:
-    teaserlogo: 'assets/images/'
-    teaser: 'assets/images/'
+    teaserlogo: 'assets/images/2018/05/gltf.png'
+    teaser: 'assets/images/2018/05/gltf.png'
 ---
-<a href="http://peted.azurewebsites.net/wp-content/uploads/2018/05/gltf.png"><img style="display: inline; background-image: none;" title="gltf" src="http://peted.azurewebsites.net/wp-content/uploads/2018/05/gltf_thumb.png" alt="gltf" width="664" height="243" border="0" /></a>
+<a href="{{ site.baseurl }}/assets/images/2018/05/gltf.png"><img style="display: inline; background-image: none;" title="gltf" src="{{ site.baseurl }}/assets/images/2018/05/gltf_thumb.png" alt="gltf" width="664" height="243" border="0" /></a>
 
 Just a quick post as I am looking at a useful Nuget package Microsoft.GLTF.cpp and wanted to note down my quick experiment with it. For an unrelated project I wrote a c++ parser for the GLB format (binary version of GLTF) and wanted to replace it with something better. If you are unfamiliar with the format I reference it here <a title="http://peted.azurewebsites.net/holograms-catalogueloading-models/" href="http://peted.azurewebsites.net/holograms-catalogueloading-models/">http://peted.azurewebsites.net/holograms-catalogueloading-models/</a> where I used a c# GLTF loader within Unity and also you can find the GLTF spec here <a title="https://github.com/KhronosGroup/glTF/tree/master/specification/" href="https://github.com/KhronosGroup/glTF/tree/master/specification/">https://github.com/KhronosGroup/glTF/tree/master/specification/</a>.
 <blockquote>To cut a long story short if you are working in the 3D industry you will most-likely have winced when people from other sectors bring up their industries open standard file format. GLTF is the answer to that and I suspect we should all get behind it.</blockquote>
 Anyway, back to the loader:
 
-<a href="http://peted.azurewebsites.net/wp-content/uploads/2018/05/nuget.png"><img style="display: inline; background-image: none;" title="nuget" src="http://peted.azurewebsites.net/wp-content/uploads/2018/05/nuget_thumb.png" alt="nuget" width="670" height="307" border="0" /></a> I loaded the Nuget package via Visual Studio’s integration and looked in it’s README file to find a sample project there which shows how to save/load a glb file. I extended that a little and added the facility to print out the scene hierarchy with node names and vertex counts for each mesh. The result looks like this:
+<a href="{{ site.baseurl }}/assets/images/2018/05/nuget.png"><img style="display: inline; background-image: none;" title="nuget" src="{{ site.baseurl }}/assets/images/2018/05/nuget_thumb.png" alt="nuget" width="670" height="307" border="0" /></a> I loaded the Nuget package via Visual Studio’s integration and looked in it’s README file to find a sample project there which shows how to save/load a glb file. I extended that a little and added the facility to print out the scene hierarchy with node names and vertex counts for each mesh. The result looks like this:
 
-<a href="http://peted.azurewebsites.net/wp-content/uploads/2018/05/output.png"><img style="display: inline; background-image: none;" title="output" src="http://peted.azurewebsites.net/wp-content/uploads/2018/05/output_thumb.png" alt="output" width="667" height="584" border="0" /></a>
+<a href="{{ site.baseurl }}/assets/images/2018/05/output.png"><img style="display: inline; background-image: none;" title="output" src="{{ site.baseurl }}/assets/images/2018/05/output_thumb.png" alt="output" width="667" height="584" border="0" /></a>
 
 when loading in the sample GLTF Lantern file.
 <blockquote>There are some reference models here <a title="https://github.com/KhronosGroup/glTF-Sample-Models" href="https://github.com/KhronosGroup/glTF-Sample-Models">https://github.com/KhronosGroup/glTF-Sample-Models</a> where you can find the Lantern and others.</blockquote>

@@ -53,10 +53,10 @@ header:
 <li>Drag EventToCommand out onto the Login button. 
 <li>With the EventToCommand object selected in the Objects &amp; Timelines view configure it via the properties pane. 
 <p> </p>
-<p><a href="http://peted.azurewebsites.net/wp-content/uploads/2010/09/wp7logincommandprops3.png" rel="WLPP"><img style="display:block;float:none;margin-left:auto;margin-right:auto;border-width:0;" title="WP7LoginCommandProps" border="0" alt="WP7LoginCommandProps" src="http://peted.azurewebsites.net/wp-content/uploads/2010/09/wp7logincommandprops3.png?w=198" width="324" height="487" /></a> </p>
+<p><a href="{{ site.baseurl }}/assets/images/2010/09/wp7logincommandprops3.png" rel="WLPP"><img style="display:block;float:none;margin-left:auto;margin-right:auto;border-width:0;" title="WP7LoginCommandProps" border="0" alt="WP7LoginCommandProps" src="{{ site.baseurl }}/assets/images/2010/09/wp7logincommandprops3.png?w=198" width="324" height="487" /></a> </p>
 <li>Click on the small blob to the right of the Command input box and choose data-binding from the options to display the data-binding dialog: 
 <p> </p>
-<p><a href="http://peted.azurewebsites.net/wp-content/uploads/2010/09/wp7logindatabindingdlg4.png" rel="WLPP"><img style="display:block;float:none;margin-left:auto;margin-right:auto;border-width:0;" title="WP7LoginDataBindingDlg" border="0" alt="WP7LoginDataBindingDlg" src="http://peted.azurewebsites.net/wp-content/uploads/2010/09/wp7logindatabindingdlg4.png?w=300" width="562" height="539" /></a> </p>
+<p><a href="{{ site.baseurl }}/assets/images/2010/09/wp7logindatabindingdlg4.png" rel="WLPP"><img style="display:block;float:none;margin-left:auto;margin-right:auto;border-width:0;" title="WP7LoginDataBindingDlg" border="0" alt="WP7LoginDataBindingDlg" src="{{ site.baseurl }}/assets/images/2010/09/wp7logindatabindingdlg4.png?w=300" width="562" height="539" /></a> </p>
 <p></p>
 <p>from here you can see all of the view model properties and can select the LoginCommand property to complete the data-binding….nice.</p>
 <ul>
