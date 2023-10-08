@@ -39,6 +39,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-include-cache 
   - jekyll-archives
+  - jekyll-sitemap
 
 category_archive:
   type: liquid
