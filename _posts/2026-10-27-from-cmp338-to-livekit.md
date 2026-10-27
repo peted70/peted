@@ -8,12 +8,12 @@ author_profile: true
 comments: true
 categories: [AI, Avatars, AWS, LiveKit, MetaHuman, Unreal Engine]
 header:
-    teaserlogo: 'assets/images/2026/10/metahuman-3-identity.png'
-    teaser: 'assets/images/2026/10/metahuman-3-identity.png'
+    teaserlogo: 'assets/images/2026/10/metahuman-hero.jpg'
+    teaser: 'assets/images/2026/10/metahuman-hero.jpg'
 ---
 *Part 1 of a three-part series on building expressive, real-time AI avatars. [Part 2]({% post_url 2026-10-27-a-behaviour-stream-for-livekit-agents %}) gets a LiveKit voice agent running; [part 3]({% post_url 2026-10-27-giving-my-avatar-a-face-and-a-body %}) builds the avatar.*
 
-![Fitting a MetaHuman to a scan of my face]({{ site.baseurl }}/assets/images/2026/10/metahuman-3-identity.png)
+![My MetaHuman in MetaHuman Creator]({{ site.baseurl }}/assets/images/2026/10/metahuman-hero.jpg)
 
 ## Where this started: CMP338 at re:Invent 2024
 
