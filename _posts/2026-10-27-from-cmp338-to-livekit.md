@@ -11,6 +11,8 @@ header:
     teaserlogo: 'assets/images/2026/10/metahuman-3-identity.png'
     teaser: 'assets/images/2026/10/metahuman-3-identity.png'
 ---
+*Part 1 of a three-part series on building expressive, real-time AI avatars. [Part 2]({% post_url 2026-10-27-a-behaviour-stream-for-livekit-agents %}) gets a LiveKit voice agent running; part 3 (coming soon) builds the avatar.*
+
 ![Fitting a MetaHuman to a scan of my face]({{ site.baseurl }}/assets/images/2026/10/metahuman-3-identity.png)
 
 ## Where this started: CMP338 at re:Invent 2024
@@ -92,4 +94,10 @@ This time I wanted to try a different shape:
 - **A behaviour stream.** Next to its voice, the agent sends small messages: emotion, gaze, gestures, listening cues.
 - **Rendering on the device.** Each viewer's own browser, headset or game engine acts out the stream. Lip sync is worked out locally from the audio.
 
-Part 2 (coming soon) explains the behaviour stream and gets the LiveKit agent running from scratch. Part 3 (coming soon) turns my own Ready Player Me avatar, which couldn't even open its mouth, into one that smiles, talks with its hands and shifts its weight.
+### Why not the MetaHuman?
+
+Rendering on the device changes which avatar makes sense. A MetaHuman is a high-end Unreal Engine character. That's why the re:Invent demo needed GPU instances and Pixel Streaming to reach a browser. For an avatar that runs in an ordinary browser tab or on a Quest, I wanted something much lighter. So this series uses my **Ready Player Me** avatar: a small glTF file that loads straight into three.js. It also follows the same conventions the behaviour stream relies on, a Mixamo-style skeleton and ARKit blend-shape names, so the same messages can drive either kind of avatar.
+
+The MetaHuman isn't gone. Because each renderer interprets the same stream, a MetaHuman in Unreal is one of the renderers I want to drive with it later. Lighter avatar first, then back to where this started.
+
+[Part 2]({% post_url 2026-10-27-a-behaviour-stream-for-livekit-agents %}) explains the behaviour stream and gets the LiveKit agent running from scratch. Part 3 (coming soon) turns my own Ready Player Me avatar, which couldn't even open its mouth, into one that smiles, talks with its hands and shifts its weight.
