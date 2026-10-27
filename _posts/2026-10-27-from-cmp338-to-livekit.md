@@ -11,7 +11,7 @@ header:
     teaserlogo: 'assets/images/2026/10/metahuman-3-identity.png'
     teaser: 'assets/images/2026/10/metahuman-3-identity.png'
 ---
-*Part 1 of a three-part series on building expressive, real-time AI avatars. [Part 2]({% post_url 2026-10-27-a-behaviour-stream-for-livekit-agents %}) gets a LiveKit voice agent running; part 3 (coming soon) builds the avatar.*
+*Part 1 of a three-part series on building expressive, real-time AI avatars. [Part 2]({% post_url 2026-10-27-a-behaviour-stream-for-livekit-agents %}) gets a LiveKit voice agent running; [part 3]({% post_url 2026-10-27-giving-my-avatar-a-face-and-a-body %}) builds the avatar.*
 
 ![Fitting a MetaHuman to a scan of my face]({{ site.baseurl }}/assets/images/2026/10/metahuman-3-identity.png)
 
@@ -100,4 +100,4 @@ Rendering on the device changes which avatar makes sense. A MetaHuman is a high-
 
 The MetaHuman isn't gone. Because each renderer interprets the same stream, a MetaHuman in Unreal is one of the renderers I want to drive with it later. Lighter avatar first, then back to where this started.
 
-[Part 2]({% post_url 2026-10-27-a-behaviour-stream-for-livekit-agents %}) explains the behaviour stream and gets the LiveKit agent running from scratch. Part 3 (coming soon) turns my own Ready Player Me avatar, which couldn't even open its mouth, into one that smiles, talks with its hands and shifts its weight.
+[Part 2]({% post_url 2026-10-27-a-behaviour-stream-for-livekit-agents %}) explains the behaviour stream and gets the LiveKit agent running from scratch. [Part 3]({% post_url 2026-10-27-giving-my-avatar-a-face-and-a-body %}) turns my own Ready Player Me avatar, which couldn't even open its mouth, into one that smiles, talks with its hands and shifts its weight.

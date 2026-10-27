@@ -11,7 +11,7 @@ header:
     teaserlogo: 'assets/images/2026/10/app-session.png'
     teaser: 'assets/images/2026/10/app-session.png'
 ---
-*Part 2 of a three-part series on building expressive, real-time AI avatars. [Part 1]({% post_url 2026-10-27-from-cmp338-to-livekit %}) covers where this started; part 3 (coming soon) builds the avatar.*
+*Part 2 of a three-part series on building expressive, real-time AI avatars. [Part 1]({% post_url 2026-10-27-from-cmp338-to-livekit %}) covers where this started; [part 3]({% post_url 2026-10-27-giving-my-avatar-a-face-and-a-body %}) builds the avatar.*
 
 ![The avatar talking, with the behaviour messages it receives]({{ site.baseurl }}/assets/images/2026/10/app-session.png)
 
@@ -179,4 +179,4 @@ To test with someone else, I deployed the agent and the web client to **Azure Co
 
 ## Next
 
-The avatar in these screenshots is my own Ready Player Me avatar, rescued from an old PowerPoint deck. When I started, it couldn't smile, blink or even open its mouth. Part 3 (coming soon) is about giving it a face and a body that move.
+The avatar in these screenshots is my own Ready Player Me avatar, rescued from an old PowerPoint deck. When I started, it couldn't smile, blink or even open its mouth. [Part 3]({% post_url 2026-10-27-giving-my-avatar-a-face-and-a-body %}) is about giving it a face and a body that move.
