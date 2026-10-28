@@ -2,7 +2,7 @@
 layout: single
 classes: wide
 title: "From CMP338 to LiveKit: where my talking avatars started"
-excerpt: "At re:Invent 2024 I presented a MetaHuman avatar you could talk to. It could move its lips, but it had no emotions and no gestures. Part 1 of a three-part series on building expressive, real-time AI avatars."
+excerpt: "At re:Invent 2024 I presented a MetaHuman avatar you could talk to. It could move its lips, but it had no emotions and no gestures. Part 1 of a series on building expressive, real-time AI avatars."
 date: 2026-10-27 09:00
 author_profile: true
 comments: true
@@ -11,7 +11,7 @@ header:
     teaserlogo: 'assets/images/2026/10/metahuman-hero.jpg'
     teaser: 'assets/images/2026/10/metahuman-hero.jpg'
 ---
-*Part 1 of a three-part series on building expressive, real-time AI avatars. [Part 2]({% post_url 2026-10-27-a-behaviour-stream-for-livekit-agents %}) gets a LiveKit voice agent running; [part 3]({% post_url 2026-10-27-giving-my-avatar-a-face-and-a-body %}) builds the avatar.*
+*Part 1 of a series on building expressive, real-time AI avatars. [Part 2]({% post_url 2026-10-27-a-behaviour-stream-for-livekit-agents %}) gets a LiveKit voice agent running; [part 3]({% post_url 2026-10-27-giving-my-avatar-a-face-and-a-body %}) builds the avatar; [part 4]({% post_url 2026-10-28-two-ways-to-give-a-livekit-agent-your-own-voice %}) gives it my own voice.*
 
 ![My MetaHuman in MetaHuman Creator]({{ site.baseurl }}/assets/images/2026/10/metahuman-hero.jpg)
 

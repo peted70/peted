@@ -2,7 +2,7 @@
 layout: single
 classes: wide
 title: "A behaviour stream for LiveKit agents"
-excerpt: "A LiveKit voice agent that sends emotion, gaze, gestures and listening cues alongside its voice, so any device can act them out. How it works, and how to get it running from scratch. Part 2 of a three-part series on expressive, real-time AI avatars."
+excerpt: "A LiveKit voice agent that sends emotion, gaze, gestures and listening cues alongside its voice, so any device can act them out. How it works, and how to get it running from scratch. Part 2 of a series on expressive, real-time AI avatars."
 date: 2026-10-27 10:00
 author_profile: true
 comments: true
@@ -11,7 +11,7 @@ header:
     teaserlogo: 'assets/images/2026/10/app-session.png'
     teaser: 'assets/images/2026/10/app-session.png'
 ---
-*Part 2 of a three-part series on building expressive, real-time AI avatars. [Part 1]({% post_url 2026-10-27-from-cmp338-to-livekit %}) covers where this started; [part 3]({% post_url 2026-10-27-giving-my-avatar-a-face-and-a-body %}) builds the avatar.*
+*Part 2 of a series on building expressive, real-time AI avatars. [Part 1]({% post_url 2026-10-27-from-cmp338-to-livekit %}) covers where this started; [part 3]({% post_url 2026-10-27-giving-my-avatar-a-face-and-a-body %}) builds the avatar; [part 4]({% post_url 2026-10-28-two-ways-to-give-a-livekit-agent-your-own-voice %}) gives it my own voice.*
 
 ![The avatar talking, with the behaviour messages it receives]({{ site.baseurl }}/assets/images/2026/10/app-session.png)
 

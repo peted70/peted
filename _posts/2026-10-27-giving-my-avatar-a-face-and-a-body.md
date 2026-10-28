@@ -2,7 +2,7 @@
 layout: single
 classes: wide
 title: "Giving my avatar a face, and a body that talks"
-excerpt: "My Ready Player Me avatar couldn't smile, blink or open its mouth. Transferring 72 blend shapes in Blender, lip sync from audio, then a body that breathes, shifts its weight and talks with its hands. Part 3 of a three-part series on expressive, real-time AI avatars."
+excerpt: "My Ready Player Me avatar couldn't smile, blink or open its mouth. Transferring 72 blend shapes in Blender, lip sync from audio, then a body that breathes, shifts its weight and talks with its hands. Part 3 of a series on expressive, real-time AI avatars."
 date: 2026-10-27 11:00
 author_profile: true
 comments: true
@@ -11,7 +11,7 @@ header:
     teaserlogo: 'assets/images/2026/10/talk-gestures.gif'
     teaser: 'assets/images/2026/10/expressions.png'
 ---
-*Part 3 of a three-part series on building expressive, real-time AI avatars. [Part 1]({% post_url 2026-10-27-from-cmp338-to-livekit %}) covers where this started; [part 2]({% post_url 2026-10-27-a-behaviour-stream-for-livekit-agents %}) gets the LiveKit agent and its behaviour stream running.*
+*Part 3 of a series on building expressive, real-time AI avatars. [Part 1]({% post_url 2026-10-27-from-cmp338-to-livekit %}) covers where this started; [part 2]({% post_url 2026-10-27-a-behaviour-stream-for-livekit-agents %}) gets the LiveKit agent and its behaviour stream running; [part 4]({% post_url 2026-10-28-two-ways-to-give-a-livekit-agent-your-own-voice %}) gives it my own voice.*
 
 ![My avatar cycling through transferred blend shapes]({{ site.baseurl }}/assets/images/2026/10/blendshapes.gif)
 
@@ -186,3 +186,5 @@ Everything here is driven by rules and loudness. The obvious next steps:
 - **Gestures timed to meaning:** the agent could send gesture cues tied to particular words, not just one per reply.
 - **Mocap or Mixamo clips** for richer movement, layered under the behaviour stream's gaze and head motion.
 - **More renderers:** Quest/Unity and a MetaHuman driven by the same stream, back where this started.
+
+**Next:** [part 4]({% post_url 2026-10-28-two-ways-to-give-a-livekit-agent-your-own-voice %}) gives the twin my own voice, with LiveKit custom voices or ElevenLabs.
