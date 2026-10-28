@@ -8,7 +8,8 @@ author_profile: true
 comments: true
 categories: [AI, Avatars, LiveKit, ElevenLabs]
 header:
-    teaser: 'assets/images/2026/10/elevenlabs-my-voices.png'
+    teaserlogo: 'assets/images/2026/10/voice-hero.jpg'
+    teaser: 'assets/images/2026/10/voice-hero.jpg'
 ---
 *Part 4 of a series on building expressive, real-time AI avatars. [Part 1]({% post_url 2026-10-27-from-cmp338-to-livekit %}) covers where this started, [part 2]({% post_url 2026-10-27-a-behaviour-stream-for-livekit-agents %}) gets a LiveKit voice agent running, and [part 3]({% post_url 2026-10-27-giving-my-avatar-a-face-and-a-body %}) builds the avatar.*
 
