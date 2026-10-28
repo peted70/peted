@@ -12,7 +12,7 @@ header:
 ---
 *Part 4 of a series on building expressive, real-time AI avatars. [Part 1]({% post_url 2026-10-27-from-cmp338-to-livekit %}) covers where this started, [part 2]({% post_url 2026-10-27-a-behaviour-stream-for-livekit-agents %}) gets a LiveKit voice agent running, and [part 3]({% post_url 2026-10-27-giving-my-avatar-a-face-and-a-body %}) builds the avatar.*
 
-<iframe width="100%" style="aspect-ratio: 16 / 9" src="https://www.youtube-nocookie.com/embed/gERrz__5E8o" title="Talking to my digital twin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" style="max-width: 100%; height: auto; aspect-ratio: 16 / 9" src="https://www.youtube-nocookie.com/embed/gERrz__5E8o" title="Talking to my digital twin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 By the end of part 3, my avatar had my face, a full set of expressions, and a body that breathed and talked with its hands. But it spoke with somebody else's voice: a stock voice called Blake. For a digital twin, that's the one thing that gives it away.
 
